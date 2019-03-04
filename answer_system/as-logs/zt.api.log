@@ -1,0 +1,94 @@
+2019-03-03 15:50:42,826 INFO (StartupInfoLogger.java:50)- Starting UserControllerTest on haoluo with PID 10321 (started by haoluo in /home/haoluo/Documents/workspaces/GitHub/answer_system)
+2019-03-03 15:50:42,843 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-03 15:50:42,844 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-03 15:50:48,443 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-03 15:50:53,330 INFO (StartupInfoLogger.java:59)- Started UserControllerTest in 12.116 seconds (JVM running for 17.754)
+2019-03-03 15:54:40,664 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 10434 (/home/haoluo/Documents/workspaces/GitHub/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/answer_system)
+2019-03-03 15:54:40,700 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-03 15:54:40,702 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-03 15:54:47,789 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-03 15:54:51,212 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 15.45 seconds (JVM running for 20.346)
+2019-03-03 15:57:33,683 INFO (StartupInfoLogger.java:50)- Starting UserControllerTest on haoluo with PID 10561 (started by haoluo in /home/haoluo/Documents/workspaces/GitHub/answer_system)
+2019-03-03 15:57:33,685 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-03 15:57:33,687 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-03 15:57:41,654 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-03 15:57:47,816 INFO (StartupInfoLogger.java:59)- Started UserControllerTest in 16.992 seconds (JVM running for 20.23)
+2019-03-03 15:58:47,310 INFO (StartupInfoLogger.java:50)- Starting UserControllerTest on haoluo with PID 10638 (started by haoluo in /home/haoluo/Documents/workspaces/GitHub/answer_system)
+2019-03-03 15:58:47,311 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-03 15:58:47,317 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-03 15:58:52,949 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-03 15:58:59,157 INFO (StartupInfoLogger.java:59)- Started UserControllerTest in 14.77 seconds (JVM running for 18.524)
+2019-03-03 16:02:04,517 INFO (StartupInfoLogger.java:50)- Starting UserControllerTest on haoluo with PID 10719 (started by haoluo in /home/haoluo/Documents/workspaces/GitHub/answer_system)
+2019-03-03 16:02:04,518 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-03 16:02:04,519 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-03 16:02:10,644 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-03 16:02:15,794 INFO (StartupInfoLogger.java:59)- Started UserControllerTest in 14.107 seconds (JVM running for 16.771)
+2019-03-03 16:03:20,842 INFO (StartupInfoLogger.java:50)- Starting UserControllerTest on haoluo with PID 10805 (started by haoluo in /home/haoluo/Documents/workspaces/GitHub/answer_system)
+2019-03-03 16:03:20,847 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-03 16:03:20,866 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-03 16:03:25,991 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-03 16:03:29,905 INFO (StartupInfoLogger.java:59)- Started UserControllerTest in 12.137 seconds (JVM running for 14.387)
+2019-03-03 16:03:31,085 DEBUG (UserController.java:39)- =======================begin===============
+2019-03-03 16:07:02,609 INFO (StartupInfoLogger.java:50)- Starting UserControllerTest on haoluo with PID 10965 (started by haoluo in /home/haoluo/Documents/workspaces/GitHub/answer_system)
+2019-03-03 16:07:02,610 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-03 16:07:02,610 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-03 16:07:07,419 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-03 16:07:11,927 INFO (StartupInfoLogger.java:59)- Started UserControllerTest in 11.775 seconds (JVM running for 14.243)
+2019-03-03 16:07:12,741 DEBUG (UserController.java:39)- =======================begin===============
+2019-03-03 16:09:08,749 INFO (StartupInfoLogger.java:50)- Starting UserControllerTest on haoluo with PID 11112 (started by haoluo in /home/haoluo/Documents/workspaces/GitHub/answer_system)
+2019-03-03 16:09:08,761 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-03 16:09:08,761 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-03 16:09:12,547 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-03 16:09:16,779 INFO (StartupInfoLogger.java:59)- Started UserControllerTest in 10.489 seconds (JVM running for 12.381)
+2019-03-03 16:09:17,502 DEBUG (UserController.java:39)- =======================begin===============
+2019-03-03 16:09:57,242 INFO (StartupInfoLogger.java:50)- Starting UserControllerTest on haoluo with PID 11168 (started by haoluo in /home/haoluo/Documents/workspaces/GitHub/answer_system)
+2019-03-03 16:09:57,243 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-03 16:09:57,244 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-03 16:10:00,595 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-03 16:10:03,576 INFO (StartupInfoLogger.java:59)- Started UserControllerTest in 8.08 seconds (JVM running for 10.079)
+2019-03-03 16:10:04,097 DEBUG (UserController.java:39)- =======================begin===============
+2019-03-03 16:20:11,797 INFO (StartupInfoLogger.java:50)- Starting UserControllerTest on haoluo with PID 11621 (started by haoluo in /home/haoluo/Documents/workspaces/GitHub/answer_system)
+2019-03-03 16:20:11,798 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-03 16:20:11,798 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-03 16:20:14,393 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-03 16:20:18,357 INFO (StartupInfoLogger.java:59)- Started UserControllerTest in 13.322 seconds (JVM running for 15.91)
+2019-03-03 16:20:18,791 DEBUG (UserController.java:39)- =======================begin===============
+2019-03-03 16:20:19,895 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-03 16:20:19,989 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters:  xxxxx@qq.com(String)
+2019-03-03 16:20:20,259 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-03 16:24:30,873 INFO (StartupInfoLogger.java:50)- Starting UserControllerTest on haoluo with PID 11806 (started by haoluo in /home/haoluo/Documents/workspaces/GitHub/answer_system)
+2019-03-03 16:24:30,875 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-03 16:24:30,883 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-03 16:24:31,910 INFO (StartupInfoLogger.java:50)- Starting UserControllerTest on haoluo with PID 11764 (started by haoluo in /home/haoluo/Documents/workspaces/GitHub/answer_system)
+2019-03-03 16:24:31,912 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-03 16:24:31,921 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-03 16:24:37,467 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-03 16:24:39,322 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-03 16:24:43,583 INFO (StartupInfoLogger.java:59)- Started UserControllerTest in 16.284 seconds (JVM running for 21.377)
+2019-03-03 16:24:44,773 DEBUG (UserController.java:39)- =======================begin===============
+2019-03-03 16:24:47,061 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-03 16:24:47,160 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters:  xxxxx@qq.com(String)
+2019-03-03 16:24:47,236 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-03 16:24:47,990 INFO (StartupInfoLogger.java:59)- Started UserControllerTest in 19.428 seconds (JVM running for 28.922)
+2019-03-03 16:24:49,417 DEBUG (UserController.java:39)- =======================begin===============
+2019-03-03 16:24:51,543 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-03 16:24:51,672 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters:  xxxxx@qq.com(String)
+2019-03-03 16:24:51,740 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-03 16:29:05,320 INFO (StartupInfoLogger.java:50)- Starting UserControllerTest on haoluo with PID 11920 (started by haoluo in /home/haoluo/Documents/workspaces/GitHub/answer_system)
+2019-03-03 16:29:05,358 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-03 16:29:05,359 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-03 16:29:11,181 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-03 16:29:15,029 INFO (StartupInfoLogger.java:59)- Started UserControllerTest in 11.417 seconds (JVM running for 16.287)
+2019-03-03 16:29:15,490 DEBUG (UserController.java:39)- =======================begin===============
+2019-03-03 16:29:16,145 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-03 16:29:16,183 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters:  xxxxx@qq.com(String)
+2019-03-03 16:29:16,205 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-03 16:30:43,993 INFO (StartupInfoLogger.java:50)- Starting UserControllerTest on haoluo with PID 12000 (started by haoluo in /home/haoluo/Documents/workspaces/GitHub/answer_system)
+2019-03-03 16:30:43,998 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-03 16:30:43,999 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-03 16:30:47,058 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-03 16:30:50,916 INFO (StartupInfoLogger.java:59)- Started UserControllerTest in 9.283 seconds (JVM running for 11.783)
+2019-03-03 16:30:51,419 DEBUG (UserController.java:39)- =======================begin===============
+2019-03-03 16:30:52,148 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-03 16:30:52,202 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: xxxxx@qq.com(String)
+2019-03-03 16:30:52,225 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1

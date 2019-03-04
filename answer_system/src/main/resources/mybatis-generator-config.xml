@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE generatorConfiguration PUBLIC
+    "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+    "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<!-- 配置示例：
+	1.http://git.oschina.net/free/Mybatis_Utils/blob/master/MybatisGeneator/MybatisGeneator.md
+	2.http://www.jianshu.com/p/e09d2370b796
+-->
+<generatorConfiguration>
+    <!--
+    <properties resource="generator.properties" />
+    -->
+    <!--
+    <classPathEntry location="/User/macbook/Downloads/mysql-connector-java-5.1.29.jar" />
+    <classPathEntry location="/User/macbook/Downloads/org.mybatis.generator-1.3.2.jar" />
+    ...
+    -->
+
+    <context id="MySQLContext" defaultModelType="flat" targetRuntime="MyBatis3Simple"
+        introspectedColumnImpl="org.mybatis.generator.api.IntrospectedColumn">
+        <property name="autoDelimitKeywords" value="true" />
+        <property name="beginningDelimiter" value="`" />
+        <property name="endingDelimiter" value="`" />
+        <!--
+        <property name="javaFileEncodeing" value="utf-8" />
+        <property name="javaFormatter" value="" />
+        <property name="xmlFormatter" value="" />
+		-->
+
+        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+            <property name="mappers" value="com.luoluohao.answer_system.web.mvc.CommonMapper" />
+            <property name="caseSensitive" value="true" />
+        </plugin>
+        <!--
+        <plugin type="com.septinary.common.web.tool.MyBatisGeneratorPlugin">
+            ...
+        </plugin>
+        ...
+        -->
+
+        <commentGenerator type="org.mybatis.generator.internal.DefaultCommentGenerator">
+            <property name="suppressAllComments" value="true" />
+            <property name="suppressDate" value="true" />
+        </commentGenerator>
+
+        <!-- 数据源连接信息配置 -->
+        <!--<jdbcConnection-->
+        <!--driverClass="oracle.jdbc.driver.OracleDriver"-->
+        <!--connectionURL="jdbc:oracle:thin:@103.36.136.211:25:bigdatadb"-->
+        <!--userId="BIGDATA_READ" password="30cUIX6l57uSx5TV">-->
+        <!--</jdbcConnection>-->
+
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+            connectionURL="jdbc:mysql://127.0.0.1:3306/answerSystem" userId="root"
+            password="123456"></jdbcConnection>
+
+        <!--
+        数据库实体表主键MySQL类型对应Java类型：
+            BIT|TINYINT(1)	  <- - ->   Boolean
+            INT               <- - ->   Integer
+            UNSIGNED INT      <- - ->   Long
+            BIGINT            <- - ->   Long
+            UNSIGNED BIGINT   <- - ->   BigInteger
+        所以，默认的类型解析器生成的对应Java类型应该按照上述规则进行修改！
+        -->
+        <javaTypeResolver type="org.mybatis.generator.internal.types.JavaTypeResolverDefaultImpl">
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
+
+        <!-- 实体生成规则配置 -->
+        <javaModelGenerator targetPackage="com.luoluohao.answer_system.x.user.dto.entity"
+            targetProject="src/main/java">
+            <property name="constructorBased" value="false" />
+            <property name="enableSubPackages" value="false" />
+            <property name="immutable" value="false" />
+            <property name="trimStrings" value="false" />
+        </javaModelGenerator>
+        <!-- *Mapper.xml生成规则配置 -->
+        <sqlMapGenerator targetPackage="mapper.mysql.user" targetProject="src/main/resources">
+            <property name="enableSubPackages" value="false" />
+        </sqlMapGenerator>
+        <!-- *Mapper.java生成规则配置 -->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.luoluohao.answer_system.x.user.dao.mapper"
+            targetProject="src/main/java">
+            <property name="enableSubPackages" value="false" />
+            <property name="rootInterface" value="com.luoluohao.answer_system.web.mvc.CommonMapper" />
+            <!--
+            <property name="exampleMethodVisibility" value="false" />
+            <property name="methodNameCalculator" value="" />
+            <property name="useLegacyBuilder" value="false" />
+            -->
+        </javaClientGenerator>
+
+        <!--
+        <table tableName="base_alarm"
+            schema="fc_appserver" catalog="fc_appserver" alias="" domainObjectName=""
+            enableInsert="true" enableSelectByPrimaryKey="true" ...
+            selectByPrimaryKeyQueryId="" selectByExampleQueryId=""
+            modelType="flat" escapeWildcards="false" delimitIdentifiers="true" delimitAllColumns="false">
+        -->
+        <!--
+        <table tableName="com_blacklist" domainObjectName="Blacklist">
+            <property name="rootClass" value="com.septinary.common.web.basic.entity.BaseEntity" />
+            <property name="rootInterface" value="com.septinary.common.web.general.dao.mybatis.CommonMapperMySQL" />
+            <property name="rootInterface" value="com.septinary.api.dao.BlacklistDao" />
+            <!- -
+            <property name="constructorBased" value="false" />
+            <property name="ignoreQualifiersAtRuntime" value="true" />
+            <property name="immutable" value="false" />
+            <property name="modelOnly" value="false" />
+            <property name="runtimeCatalog" value="fc_appserver" />
+            <property name="runtimeSchema" value="fc_appserver" />
+            <property name="runtimeTableName" value="base_alarm" />
+            <property name="selectAllOrderByClause" value="" />
+            <property name="useActualColumnNames" value="false" />
+            <property name="useColumnIndexes" value="false" />
+            <property name="useCompoundPropertyNames" value="false" />
+            - ->
+            <generatedKey column="blac_id" sqlStatement="MySql" identity="true" type="post" />
+            <columnRenamingRule searchString="^blac_" replaceString="" />
+            <!- -
+            <columnOverride column="alarm_time"
+                javaType="java.sql.Timestamp" jdbcType="TIMESTAMP" typeHandler="com.septinary.common.type.Timestamp" delimitedColumnName="true">
+                <property name="property" value="time" />
+                <property name="javaType" value="java.sql.Timestamp" />
+                <property name="jdbcType" value="TIMESTAMP" />
+                <property name="typeHandler" value="com.septinary.common.type.Timestamp" />
+                <property name="delimitedColumnName" value="true" />
+                ...
+            </columnOverride>
+            ...
+            <ignoreColumn column="alarm_memo" delimitedColumnName="true" />
+            ...
+            - ->
+        </table>
+        <table tableName="xxx" domainObjectName="XXX">
+            <property name="rootClass" value="com.septinary.common.web.basic.entity.BaseEntity" />
+            <property name="rootInterface" value="com.septinary.common.web.general.dao.mybatis.CommonMapperMySQL" />
+            <property name="rootInterface" value="com.septinary.sys.dao.XXXDao" />
+            <generatedKey column="xx_id" sqlStatement="MySql" identity="true" type="post" />
+            <columnRenamingRule searchString="^xx_" replaceString="" />
+        </table>
+        -->
+        <!--<table tableName="mms_campaign_activity" domainObjectName="CampaignActivity">
+            <property name="rootInterface" value="com.abcdpower.web.mvc.CommonMapper" />
+            <property name="rootInterface" value="com.abcdpower.x.iwill.mms.dao.ICampaignActivityDao" />
+            <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
+        </table>-->
+        <table tableName="user" domainObjectName="User">
+            <property name="rootInterface" value="com.luoluohao.answer_system.web.mvc.CommonMapper" />
+            <property name="rootInterface" value="com.luoluohao.answer_system.x.user.dao.IUserDao" />
+            <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
+        </table>
+    </context>
+</generatorConfiguration>

@@ -1,0 +1,165 @@
+#服务器配置
+server:
+  port: 8080
+  servlet:
+    context-path: /as-api
+
+#Spring配置
+spring:
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+    oda-date-time-format: yyyy-MM-dd HH:mm:ss
+  multipart:
+    enabled: true
+    max-file-size: 10MB
+    max-request-size: 10MB
+  session:
+    store-type: none
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+  datasource:
+    mysql:
+      url: jdbc:mysql://127.0.0.1:3306/answerSystem?characterEncoding=UTF-8&useSSL=true
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.jdbc.Driver
+    oracle:
+      driver-class-name: oracle.jdbc.driver.OracleDriver
+      url: jdbc:oracle:thin:@103.36.136.211:25:bigdatadb
+      username: BIGDATA_READ
+      password: 30cUIX6l57uSx5TV
+
+#LogBack-Boot配置start=======================================================================
+logging:
+  config: classpath:logback-boot.xml
+#LogBack-Boot配置end=========================================================================
+
+##微信支付配置start============================================================================
+#wxpay:
+#  appID: wx5a8ae4ebc43f75a2
+#  mchID: 1515343441
+#  key: aJxmhfCBfdxDEK0u8W3FJbAq7qKM0mdW
+#  notify_uri: https://test.iwill.beigebigdata.com/zt-api/pay/wxnotify
+##微信支付配置end==============================================================================
+#
+##微信小程序配置start==========================================================================
+#wxmini:
+#  appid: wxe292bd0d752748cd
+#  secret: 77973d9c67bf83339390b076ff0ad04c
+#  charset: UTF-8
+#  lang: zh_CN
+#  useragent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;SV1)
+#  tokenurl: https://api.weixin.qq.com/cgi-bin/token
+#  grant: client_credential
+#  geturl: https://api.weixin.qq.com/wxa/getwxacodeunlimit
+#  width: 430
+#  getmsgurl: https://api.weixin.qq.com/customservice/msgrecord/getmsglist
+##微信小程序配置end============================================================================
+#
+##微信公众号配置start==========================================================================
+#wxpub:
+#  appid: wx5a8ae4ebc43f75a2
+#  appsecret: aedae8f1f1a0921b5724100a4c4271af
+#  tokenUrl: https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid={0}&secret={1}
+#  addNewsUrl: https://api.weixin.qq.com/cgi-bin/material/add_news
+#  tempUrl: https://api.weixin.qq.com/cgi-bin/media/upload
+#  imgUrl: https://api.weixin.qq.com/cgi-bin/media/uploadimg
+#  materialUrl: https://api.weixin.qq.com/cgi-bin/material/add_material
+##微信公众号配置end============================================================================
+#
+##支付宝支付配置start==========================================================================
+#alipay:
+#  server_uri: https://openapi.alipay.com/gateway.do
+#  format: json
+#  charset: utf-8
+#  sign_type: RSA2
+#  appid: 2018110462029070
+#  private_key: MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC9HFEF5mUWhUjdJp0GkTK42QqwDNAEPsfszmDEiJQdKxdXyFrFeQ/N7AO/Cet2ni3Psaf/YayW38dR+9+Mpuk7oVYUmzWS3gICR5uchNdqpR9d6ziYolFqNzsi+1mribsKqpbcA2rlKWQYGyJBqILLbu1Dkj+mW+k0AOhjlQC3ATNeKS+6WrX9N4Ddg4Zl9Qg3WB06rqS1HMWxl/cKTLT+5juJGXRVLERCu5uS1qFRfCA/2Mc5w6mC3UBdK+8C7SLw1xdT9NU35TEoyGq0duaA7HW0Mhl3y4XZNzGBoOo6Bq/mMiT0qVfZiRYa1Qn4UvLBVrihweEDgLIG3f0jzlkJAgMBAAECggEBAIXDRbw6nz4ywLtM2L0QbyQ4wUqNhYW7MobZ47CgOsP2+ufom+waGYe6bVvvlFGuyRCjxQTq/b0qRD5FPnaqiUbYc57XuilMR3d9VyB7BjQ03976xmmQRq4uqvGvgFnJbje5OkQdVrsJb/dtGen/W6Sxrbmh9MujL2zNR5NIjdzjDzn4uZK2/iBMFwBYM0yTUe4PBchES0f2YR2DjLyOpAHE2ajFe16+dJ1ORLHnnSNyytHUgASrDsdLXhYkeNgsHEnYWELIx67SFzOKwG0SS9HLkLD8fxW6Y496Djjap3QsTKS5vQYkS+H+raRYLQITcXYNDlmTvoxI5fc2abceV5ECgYEA9qSHOz57/XroOy68rKkX8HPVzCgkJWU5P8cd5K7ISzmcOFJ1h1u3x+BCGMIZcaCjt8ydi1GC7NikpzC+rNLM/jVySi8egoea6dyO18BGWFlpDZWes2gcDNZklRL2MTZfrGEJNS36tutIsZnm4TINRGiakGlEdWPb/ySr67dV4YcCgYEAxEkEvl3eaCZb9KeOyc5/v8Wf2g5PdBbG9HRWGM6hl0BkNt9vIUg3sq7YfJAf0rKL8To4mFjZqyJ3ew6Av1iLec/B1Rnf9nGANf4JtJNga1Fr2Frw4f7YRAHMMhNMVLA4XGHY2d0S8yiko3zEcjBeF8utT3tjghxpBX/OFYB71O8CgYBp2I/EZ/tT+9P/2f3UZzjD0yI0XCGu/rLD4RK+GhgQ2GdncFPJxB2ppF8ZOusqbVL1RNVzfYafWBXJPk0F4+1fRtaGaZRBViqwJBwVEQnfTnecAdK6kXpANB20MBABbKFAW+BUtye6KlznAvInQJCbA/0Y7mQXsMQvybASF3q+rwKBgQCl1neOi2qcnkQ1Gdh3QuQGV+dt6YdRsujXou8XOIWob/v7rJ2NBiIg8r7vxylL8BRydFlaxj7p6039h0xZ3mrBOTowXRMvecf0VjVG/vmI0psGihdZKeL42nf2mv1z1AtaakU4FSOsk9s+Uez7+UeWXTyJmduCE5Tb05Z/7jUxuwKBgA3z5W2OVqFjwXRvhsmET8z/7YLMGHbHtGB0tVGJudb4BnFWgUNoqWH50KJKY0bKaSWuVNocyUGvXkTc6sHytWl+KJaQ6F4grJl2ZaJL33S3OR4NUJCBd/d7n8hHiUajP5lAB4Vqw++7tdOtlSBQodHwfJX+QrCmOiGGp5qleekS
+#  alipay_public_key: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl3VmCNkctfD535Ohp1Dnt19Q27S3s/187i0UnLsDCRW7JiOHwe1YGQRqmVww4kUM4JPGqPtyIy23+kk5KhCd2Ch0pTXLrBNI494ONgI56A0l4YI08PZ1bevr8mAXEqKVJIxNSsCk/fxa3JhnbER+D5AXZfjfym28QIJdaSdajNOnO/ch3CsQrppR0+6tOSfm31aVT8/AB5VRfVBU4lrt7i+ILuN1OUhRQdkeIUZDwEUUZsBYMQGrTvFbq4OGfSrgJ7WcatNwvbDELbg54f2HPUEjX+Hw/zWIGJQAYAH1Bc3bZZ7gnsEm8A5z9+b8gd/rt+JbHHxij6Ko4yFG6xKZ3QIDAQAB
+#  notify_uri: https://test.iwill.beigebigdata.com/zt-api/pay/alinotify
+#  return_uri: http://test.iwill.beigebigdata.com/zt-web#/order
+##支付宝支付配置end============================================================================
+#
+##微博配置start===============================================================================
+#weibo:
+#  client_id: 2440522622
+#  client_secret: 84b4a43878aa092804cd8532ad1d07b6
+#  redirect_uri: https://test.iwill.beigebigdata.com/file/callback/thrid.html
+#  grant_type: authorization_code
+#  publish_uri: https://api.weibo.com/2/statuses/share.json
+#  accesstoken_uri: https://api.weibo.com/oauth2/access_token
+#  open_window_uri: https://api.weibo.com/oauth2/authorize?client_id=${weibo.client_id}&response_type=code&redirect_uri=${weibo.redirect_uri}
+##微博配置end=================================================================================
+#
+#
+##企鹅号配置start=============================================================================
+#penguin:
+#  client_id: 405d70148dcfa66585023cb02a682cd6
+#  client_secret: ba10783c85d7be838b89adef52702d14b7c0e2d9
+#  redirect_uri: https://test.iwill.beigebigdata.com/file/callback/thrid.html
+#  grant_type: authorization_code
+#  publish_uri: https://api.om.qq.com/article/authpubpic
+#  accesstoken_uri: https://auth.om.qq.com/omoauth2/accesstoken
+#  open_window_uri: https://auth.om.qq.com/omoauth2/authorize?response_type=code&client_id=${penguin.client_id}&redirect_uri=${penguin.redirect_uri}
+##企鹅号配置end===============================================================================
+#
+#
+##短信配置start===============================================================================
+#sms:
+#  getUri: https://sms.yunpian.com/v2/user/get.json
+#  sendSingleUri: https://sms.yunpian.com/v2/sms/single_send.json
+#  sendBacthUri: https://sms.yunpian.com/v2/sms/batch_send.json
+#  sendTplUri: https://sms.yunpian.com/v2/sms/tpl_single_send.json
+#  sendVoiceUri: https://voice.yunpian.com/v2/voice/send.json
+#  bindUri: https://call.yunpian.com/v2/call/bind.json
+#  unbindUri: https://call.yunpian.com/v2/call/unbind.json
+#  encoding: UTF-8
+#  apikey: 09afd08c1143ff0f084751646f1db07d
+#  defaultCallbackUri: https://iwill.beigebigdata.com/iwill/sms/report/default
+#  messageTemplateVerifyCode: 感谢您注册小牛通，本次验证码为{code}。
+#  messageTemplateFindCode: 您正在使用小牛通找回密码，本次验证码为{code}
+#  messageTemplateTransferNotice: 您订阅的组合有调仓，调仓类型{type}，详情请关注服务号消息。
+##短信配置end=================================================================================
+#
+#
+##shiro配置start==============================================================================
+#shiro:
+#  redisHost: 172.17.1.110
+#  redisPort: 6379
+#  redisTimeout: 8000
+#  database:
+#  password:
+##shiro配置end================================================================================
+#
+##文件配置start================================================================================
+#file:
+#  serverRootUrl: http://test.iwill.beigebigdata.com/file/
+#  serverRootDir: /data/tomcat-iwill-18080/webapps/file/
+#  uploadPath: file/
+#  uploadStore:
+##文件配置end=================================================================================
+#
+#
+##邮件配置start===============================================================================
+#email:
+#  smtpHost: smtp.exmail.qq.com
+#  smtpAuth: false
+#  smtpSslEnable: true
+#  smtpTimeout: 3600
+#  transportProtocol: smtp
+#  fromUsername: iwill@beigebigdata.com
+#  fromAuthcode: 1qa@ws3ED
+#  debug: true
+##邮件配置end================================================================================
+
+##系统配置start===============================================================================
+#sys:
+#  miniApiRootUrl: https://test.iwill.beigebigdata.com/miniapp/
+#  resetPasswordUrl: http://test.iwill.beigebigdata.com/zt-web/#/ilogin/resetpassword?token=
+##系统配置end=================================================================================
+
+
+

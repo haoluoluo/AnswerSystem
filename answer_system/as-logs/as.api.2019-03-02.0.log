@@ -1,0 +1,16 @@
+2019-03-02 14:43:46,397 INFO (StartupInfoLogger.java:50)- Starting UserServiceImpTest on haoluo with PID 3615 (started by haoluo in /home/haoluo/Documents/workspaces/GitHub/answer_system)
+2019-03-02 14:43:46,502 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-02 14:43:46,503 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-02 14:43:51,813 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-02 14:43:57,173 INFO (StartupInfoLogger.java:59)- Started UserServiceImpTest in 13.786 seconds (JVM running for 21.854)
+2019-03-02 14:43:59,021 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user 
+2019-03-02 14:43:59,055 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-02 14:43:59,109 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-02 14:46:52,887 INFO (StartupInfoLogger.java:50)- Starting UserServiceImpTest on haoluo with PID 3922 (started by haoluo in /home/haoluo/Documents/workspaces/GitHub/answer_system)
+2019-03-02 14:46:53,036 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-02 14:46:53,036 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-02 14:47:06,013 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-02 14:47:17,734 INFO (StartupInfoLogger.java:59)- Started UserServiceImpTest in 29.22 seconds (JVM running for 33.441)
+2019-03-02 14:47:21,043 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user 
+2019-03-02 14:47:21,101 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-02 14:47:21,220 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.3.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.luoluohao</groupId>
+    <artifactId>answer_system</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <!-- 打包: WAR（第1步）[2018-09-24 09:19:16] -->
+    <!-- 切换打包输出形式，即由原来默认的 jar 输出，切换为 war 输出 -->
+    <!--[begin]-->
+    <!--Application
+    <packaging>jar</packaging>
+    -->
+    <packaging>war</packaging>
+    <!--[end]-->
+
+
+    <name>answer_system</name>
+    <description>AnswerSystem</description>
+
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <!-- [2018-09-18 23:13:07] 自定义配置属性 -->
+        <mybatis.springboot.version>1.3.2</mybatis.springboot.version>
+        <mybatis.generator.version>1.3.7</mybatis.generator.version>
+        <tk.mybatis.version>4.0.4</tk.mybatis.version>
+        <mysql.connector.version>5.1.46</mysql.connector.version>
+        <druid.version>1.1.10</druid.version>
+        <lombok.version>1.18.2</lombok.version>
+        <jackson.version>2.9.4</jackson.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <!-- 打包: WAR（第2步）[2018-09-24 09:19:44] -->
+            <!-- 排除内嵌式tomcat插件：
+                spring boot的web项目中，内嵌了tomcat服务器，如果我们想要发布war包到tomcat项目，
+                要将spring boot中内嵌的tomcat包依赖排除，不然，就会产生冲突。
+            -->
+            <!--[begin]-->
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-tomcat</artifactId>
+                </exclusion>
+            </exclusions>
+            <!--[end]-->
+        </dependency>
+
+        <!-- 打包: WAR（第3步）[2018-09-24 09:19:54] -->
+        <!-- 在（第2步）的基础上，如果本地开发的时候，依然想要使用spring boot内嵌tomcat来进行调试，
+            添加如下依赖即可（其中，provided 表示开发调试时无效，运行时生效。注意，添加之后调试程序
+            将无法启动）。
+            注意：因为这个是为打包而设计的方案，如果想要运行项目的话，一定要把这里 <scope>provided</scope>
+            注释掉，才可以运行，不然肯定会出错，这点一定要注意。
+        -->
+        <!--[begin]-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <!--[end]-->
+
+        <!-- [2018-10-09 23:00:47] 引入AOP -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
+        <!-- 打包: WAR（第4步）[2018-09-24 09:20:04] -->
+        <!-- 添加servlet-api的依赖（下面两种方式都可以，任选其一）-->
+        <!--[begin]-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <!--<dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-servlet-api</artifactId>
+            <version>8.0.36</version>
+            <scope>provided</scope>
+        </dependency>-->
+        <!--[end]-->
+
+        <!-- 打包: WAR（第5步）[2018-09-24 09:20:46] -->
+        <!-- Spring Boot支持Servlet2.5：
+            spring boot最低支持的servlet版本是3.0，但是tomcat 6的servlet版本是2.5，这样的话，
+            如果只有上面的流程，是无法支持tomcat 6发布spring boot项目的，
+        -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-legacy</artifactId>
+            <version>1.1.0.RELEASE</version>
+        </dependency>
+
+        <!-- 打包: WAR（第6步）[2018-09-24 09:25:09] -->
+        <!-- 解决Spring测试工具包冲突，即注释掉这个依赖：
+            否则，打包报错：
+            */iwill.zt-service/src/test/java/com/abcdpower/x/iwill/IwillApplicationTests.java
+            Error:(6, 47) java: 找不到符号
+            符号:   类 SpringRunner
+            位置: 程序包 org.springframework.test.context.junit4
+            Error:(8, 10) java: 找不到符号
+            符号: 类 SpringRunner
+        -->
+        <!-- [2018-09-23 22:46:32] Spring测试工具包 -->
+        <!--
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>4.1.4.RELEASE</version>
+        </dependency>
+        -->
+
+        <!-- [2018-08-29 11:06:22] 集成Mybatis -->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>${mybatis.springboot.version}</version>
+        </dependency>
+
+        <!-- [2018-08-29 11:01:22] Spring Boot热部署 -->
+        <!--<dependency>-->
+        <!--<groupId>org.springframework.boot</groupId>-->
+        <!--<artifactId>spring-boot-devtools</artifactId>-->
+        <!--&lt;!&ndash; 这个需要为 true 热部署才有效 &ndash;&gt;-->
+        <!--<optional>true</optional>-->
+        <!--</dependency>-->
+
+        <!-- [2018-08-29 11:06:45] 支持MySQL持久化 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.connector.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/cn.songxinqiang/com.baidu.ueditor -->
+        <dependency>
+            <groupId>cn.songxinqiang</groupId>
+            <artifactId>com.baidu.ueditor</artifactId>
+            <version>1.1.2-offical</version>
+        </dependency>
+
+        <!-- [2018-08-30 11:34:21] HTTP工具 -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpmime</artifactId>
+            <version>4.5.6</version>
+        </dependency>
+
+
+        <!-- [2018-08-31 19:35:17] JSON工具-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.28</version>
+        </dependency>
+
+        <!-- [2018-09-18 23:23:45] 数据库连池 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>${druid.version}</version>
+        </dependency>
+
+        <!-- [2018-09-18 23:24:14] 实体净化工具 -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- [2018-09-18 23:26:12] 通用Mapper -->
+        <dependency>
+            <groupId>tk.mybatis</groupId>
+            <artifactId>mapper</artifactId>
+            <version>${tk.mybatis.version}</version>
+        </dependency>
+
+
+        <!-- [2018-09-20 01:14:26] 接受JSON参数注入 -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
+        <!-- [2018-09-30 23:11:53] Google Json Tool -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.6.2</version>
+        </dependency>
+
+        <!-- [2018-10-21 23:23:05] Oracle驱动 -->
+        <!--<dependency>-->
+            <!--<groupId>com.oracle</groupId>-->
+            <!--<artifactId>ojdbc6</artifactId>-->
+            <!--<version>11.2.0.3</version>-->
+        <!--</dependency>-->
+
+        <!-- [2018-09-22 23:21:39] 自动分页 -->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper</artifactId>
+            <version>5.1.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse</groupId>
+            <artifactId>yasson</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.glassfish</groupId>
+            <artifactId>javax.json</artifactId>
+            <version>1.1</version>
+        </dependency>
+        <!-- [2018-08-31 19:04:26] 微信加解密 -->
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk15on</artifactId>
+            <version>1.55</version>
+        </dependency>
+
+
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <!-- [2018-09-18 23:29:51] MyBatis 数据库表对应POJO生成工具 -->
+            <plugin>
+                <groupId>org.mybatis.generator</groupId>
+                <artifactId>mybatis-generator-maven-plugin</artifactId>
+                <version>${mybatis.generator.version}</version>
+                <configuration>
+                    <configurationFile>${basedir}/src/main/resources/mybatis-generator-config.xml
+                    </configurationFile>
+                    <verbose>true</verbose>
+                    <overwrite>true</overwrite>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>mysql</groupId>
+                        <artifactId>mysql-connector-java</artifactId>
+                        <version>${mysql.connector.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>tk.mybatis</groupId>
+                        <artifactId>mapper</artifactId>
+                        <version>${tk.mybatis.version}</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
