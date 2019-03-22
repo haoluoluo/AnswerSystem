@@ -5,6 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 import javax.annotation.PostConstruct;
@@ -37,6 +38,7 @@ import java.util.TimeZone;
  */
 @MapperScan("com.luoluohao.answer_system.**.dao.mapper")
 @SpringBootApplication
+@EnableConfigurationProperties
 public class AnswerSystemApplication extends SpringBootServletInitializer {
 
     @PostConstruct

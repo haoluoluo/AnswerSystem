@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.luoluohao.answer_system.x.as.question.dao.mapper.QuestionMapper">
+  <resultMap id="BaseResultMap" type="com.luoluohao.answer_system.x.as.question.dto.entity.Question">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="answer" jdbcType="VARCHAR" property="answer" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="examination" jdbcType="INTEGER" property="examination" />
+    <result column="score" jdbcType="INTEGER" property="score" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="typeparse" jdbcType="VARCHAR" property="typeparse" />
+    <result column="token" jdbcType="VARCHAR" property="token" />
+  </resultMap>
+  <resultMap id="ModelMap" type="com.luoluohao.answer_system.x.as.question.dto.model.QuestionExt">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="answer" jdbcType="VARCHAR" property="answer" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="examination" jdbcType="INTEGER" property="examination" />
+    <result column="score" jdbcType="INTEGER" property="score" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="typeparse" jdbcType="VARCHAR" property="typeparse" />
+    <result column="token" jdbcType="VARCHAR" property="token" />
+    <collection property="items" column="id" javaType="ArrayList"
+                ofType="com.luoluohao.answer_system.x.as.question.dto.entity.Items"
+                select="com.luoluohao.answer_system.x.as.question.dao.mapper.QuestionMapper.selectItemsByQuestionId"></collection>
+  </resultMap>
+  <resultMap id="ModelMap_HIGH" type="com.luoluohao.answer_system.x.as.question.dto.model.QuestionExt">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="answer" jdbcType="VARCHAR" property="answer" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="examination" jdbcType="INTEGER" property="examination" />
+    <result column="score" jdbcType="INTEGER" property="score" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="typeparse" jdbcType="VARCHAR" property="typeparse" />
+    <result column="token" jdbcType="VARCHAR" property="token" />
+    <collection property="items" ofType="com.luoluohao.answer_system.x.as.question.dto.entity.Items">
+      <id column="item_id" jdbcType="INTEGER" property="id" />
+      <result column="name" jdbcType="VARCHAR" property="name" />
+      <result column="question" jdbcType="INTEGER" property="question" />
+      <result column="item_score" jdbcType="INTEGER" property="score" />
+    </collection>
+  </resultMap>
+   <select id="selectQuestionsByExamHIGH" resultMap="ModelMap_HIGH" parameterType="java.lang.Integer">
+      SELECT qut.id, qut.title, qut.answer, qut.reason, qut.examination, qut.score,qut.type,qut.typeparse,qut.token,
+      itm.id as item_id,itm.name, itm.question, itm.score AS item_score
+      FROM answerSystem.question AS qut
+      LEFT JOIN answerSystem.items AS itm ON qut.id= itm.question
+      WHERE qut.examination=#{exam}
+      ORDER BY qut.id,qut.type,itm.score
+  </select>
+  <select id="selectQuestionsByExam" resultMap="ModelMap" parameterType="java.lang.Integer">
+      SELECT qut.id, qut.title, qut.answer, qut.reason, qut.examination, qut.score,qut.type,qut.typeparse,qut.token
+      FROM answerSystem.question AS qut
+      WHERE qut.examination=#{exam}
+      ORDER BY qut.id,qut.type
+  </select>
+</mapper>

@@ -1,6 +1,6 @@
 #服务器配置
 server:
-  port: 8080
+  port: 8090
   servlet:
     context-path: /as-api
 
@@ -145,21 +145,21 @@ logging:
 #
 ##邮件配置start===============================================================================
 #email:
-#  smtpHost: smtp.exmail.qq.com
+#  smtpHost: smtp.163.com
 #  smtpAuth: false
 #  smtpSslEnable: true
 #  smtpTimeout: 3600
 #  transportProtocol: smtp
-#  fromUsername: iwill@beigebigdata.com
-#  fromAuthcode: 1qa@ws3ED
+#  fromUsername: 18852985129@163.com
+#  fromAuthcode: abc123
 #  debug: true
 ##邮件配置end================================================================================
 
-##系统配置start===============================================================================
-#sys:
-#  miniApiRootUrl: https://test.iwill.beigebigdata.com/miniapp/
-#  resetPasswordUrl: http://test.iwill.beigebigdata.com/zt-web/#/ilogin/resetpassword?token=
-##系统配置end=================================================================================
+#系统配置start===============================================================================
+sys:
+  miniApiRootUrl: https://test.iwill.beigebigdata.com/miniapp/
+  resetPasswordUrl: http://localhost:8080/ilogin/resetpassword?token=
+#系统配置end=================================================================================
 
 
 

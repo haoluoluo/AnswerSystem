@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.luoluohao.answer_system.x.as.question.dao.mapper.ItemsMapper">
+  <resultMap id="BaseResultMap" type="com.luoluohao.answer_system.x.as.question.dto.entity.Items">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="question" jdbcType="INTEGER" property="question" />
+    <result column="score" jdbcType="INTEGER" property="score" />
+  </resultMap>
+  <select id="selectItemsByQuestionId" resultMap="BaseResultMap" parameterType="java.util.HashMap">
+    SELECT id, items.name,items.question,items.score
+    FROM answerSystem.items
+    WHERE items.question=#{question}
+    ORDER BY items.id,items.score
+  </select>
+</mapper>

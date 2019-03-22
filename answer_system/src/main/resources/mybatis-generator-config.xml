@@ -70,7 +70,7 @@
         </javaTypeResolver>
 
         <!-- 实体生成规则配置 -->
-        <javaModelGenerator targetPackage="com.luoluohao.answer_system.x.user.dto.entity"
+        <javaModelGenerator targetPackage="com.luoluohao.answer_system.x.as.sys.dto.entity"
             targetProject="src/main/java">
             <property name="constructorBased" value="false" />
             <property name="enableSubPackages" value="false" />
@@ -78,11 +78,11 @@
             <property name="trimStrings" value="false" />
         </javaModelGenerator>
         <!-- *Mapper.xml生成规则配置 -->
-        <sqlMapGenerator targetPackage="mapper.mysql.user" targetProject="src/main/resources">
+        <sqlMapGenerator targetPackage="mapper.mysql.sys" targetProject="src/main/resources">
             <property name="enableSubPackages" value="false" />
         </sqlMapGenerator>
         <!-- *Mapper.java生成规则配置 -->
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.luoluohao.answer_system.x.user.dao.mapper"
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.luoluohao.answer_system.x.as.sys.dao.mapper"
             targetProject="src/main/java">
             <property name="enableSubPackages" value="false" />
             <property name="rootInterface" value="com.luoluohao.answer_system.web.mvc.CommonMapper" />
@@ -143,14 +143,54 @@
             <columnRenamingRule searchString="^xx_" replaceString="" />
         </table>
         -->
-        <!--<table tableName="mms_campaign_activity" domainObjectName="CampaignActivity">
-            <property name="rootInterface" value="com.abcdpower.web.mvc.CommonMapper" />
-            <property name="rootInterface" value="com.abcdpower.x.iwill.mms.dao.ICampaignActivityDao" />
-            <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
-        </table>-->
-        <table tableName="user" domainObjectName="User">
+        <!--&lt;!&ndash;<table tableName="mms_campaign_activity" domainObjectName="CampaignActivity">-->
+            <!--<property name="rootInterface" value="com.abcdpower.web.mvc.CommonMapper" />-->
+            <!--<property name="rootInterface" value="com.abcdpower.x.iwill.mms.dao.ICampaignActivityDao" />-->
+            <!--<generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />-->
+        <!--</table>&ndash;&gt;-->
+        <!--<table tableName="user" domainObjectName="User">-->
+            <!--<property name="rootInterface" value="com.luoluohao.answer_system.web.mvc.CommonMapper" />-->
+            <!--<property name="rootInterface" value="com.luoluohao.answer_system.x.as.user.dao.IUserDao" />-->
+            <!--<generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />-->
+        <!--</table>-->
+        <!--<table tableName="user_token" domainObjectName="UserToken">-->
+            <!--<property name="rootInterface" value="com.luoluohao.answer_system.web.mvc.CommonMapper" />-->
+            <!--<property name="rootInterface" value="com.luoluohao.answer_system.x.as.user.dao.IUserTokenDao" />-->
+            <!--<generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />-->
+        <!--</table>-->
+         <!--<table tableName="question" domainObjectName="Question">-->
+            <!--<property name="rootInterface" value="com.luoluohao.answer_system.web.mvc.CommonMapper" />-->
+            <!--<property name="rootInterface" value="com.luoluohao.answer_system.x.as.question.dao.IQuestionDao" />-->
+            <!--<generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />-->
+        <!--</table>-->
+          <!--<table tableName="items" domainObjectName="Items">-->
+            <!--<property name="rootInterface" value="com.luoluohao.answer_system.web.mvc.CommonMapper" />-->
+            <!--<property name="rootInterface" value="com.luoluohao.answer_system.x.as.question.dao.IItemsDao" />-->
+            <!--<generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />-->
+        <!--</table>-->
+        <!--<table tableName="records" domainObjectName="Records">-->
+            <!--<property name="rootInterface" value="com.luoluohao.answer_system.web.mvc.CommonMapper" />-->
+            <!--<property name="rootInterface" value="com.luoluohao.answer_system.x.as.records.dao.IRecordsDao" />-->
+            <!--<generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />-->
+        <!--</table>-->
+        <!--<table tableName="admins" domainObjectName="Admins">-->
+            <!--<property name="rootInterface" value="com.luoluohao.answer_system.web.mvc.CommonMapper" />-->
+            <!--<property name="rootInterface" value="com.luoluohao.answer_system.x.as.admins.dao.IAdminsDao" />-->
+            <!--<generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />-->
+        <!--</table>-->
+         <!--<table tableName="crm_user_token" domainObjectName="UserToken">-->
+            <!--<property name="rootInterface" value="com.luoluohao.answer_system.web.mvc.CommonMapper" />-->
+            <!--<property name="rootInterface" value="com.luoluohao.answer_system.x.as.user.dao.IUserTokenDao" />-->
+            <!--<generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />-->
+        <!--</table>-->
+         <table tableName="sys_field_name" domainObjectName="FieldName">
             <property name="rootInterface" value="com.luoluohao.answer_system.web.mvc.CommonMapper" />
-            <property name="rootInterface" value="com.luoluohao.answer_system.x.user.dao.IUserDao" />
+            <property name="rootInterface" value="com.luoluohao.answer_system.x.as.sys.dao.IFieldNameDao" />
+            <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
+        </table>
+        <table tableName="sys_field_value" domainObjectName="FieldValue">
+            <property name="rootInterface" value="com.luoluohao.answer_system.web.mvc.CommonMapper" />
+            <property name="rootInterface" value="com.luoluohao.answer_system.x.as.sys.dao.IFieldValueDao" />
             <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
         </table>
     </context>

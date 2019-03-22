@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.luoluohao.answer_system.x.as.records.dao.mapper.RecordsDetailMapper">
+  <resultMap id="BaseResultMap" type="com.luoluohao.answer_system.x.as.records.dto.entity.RecordsDetail">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="question" jdbcType="INTEGER" property="question" />
+    <result column="useranswer" jdbcType="VARCHAR" property="useranswer" />
+    <result column="rightanswer" jdbcType="VARCHAR" property="rightanswer" />
+    <result column="isright" jdbcType="INTEGER" property="isright" />
+  </resultMap>
+</mapper>
