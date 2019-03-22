@@ -1,0 +1,259 @@
+{
+    "children": [
+        {
+            "code": "profit",
+            "level": 2,
+            "name": "利润表",
+            "options": [
+                {
+                    "code": "TTL_OPER_INC",
+                    "json": "{\"code\":\"TTL_OPER_INC\",\"menu\":\"profit\",\"tab\":\"finance\"}",
+                    "lable": "利润表:营业总收入(元)",
+                    "level": 3,
+                    "name": "营业总收入(元)",
+                    "pCode": "profit"
+                },
+                {
+                    "code": "OPER_PROF",
+                    "json": "{\"code\":\"OPER_PROF\",\"menu\":\"profit\",\"tab\":\"finance\"}",
+                    "lable": "利润表:营业利润(元)",
+                    "level": 3,
+                    "name": "营业利润(元)",
+                    "pCode": "profit"
+                },
+                {
+                    "code": "TTL_PROF ",
+                    "json": "{\"code\":\"TTL_PROF \",\"menu\":\"profit\",\"tab\":\"finance\"}",
+                    "lable": "利润表:利润总额(元)",
+                    "level": 3,
+                    "name": "利润总额(元)",
+                    "pCode": "profit"
+                },
+                {
+                    "code": "NET_PROF_PCO",
+                    "json": "{\"code\":\"NET_PROF_PCO\",\"menu\":\"profit\",\"tab\":\"finance\"}",
+                    "lable": "利润表:归母净利润(元)",
+                    "level": 3,
+                    "name": "归母净利润(元)",
+                    "pCode": "profit"
+                },
+                {
+                    "code": "NET_PROF",
+                    "json": "{\"code\":\"NET_PROF\",\"menu\":\"profit\",\"tab\":\"finance\"}",
+                    "lable": "利润表:息税前利润(元)",
+                    "level": 3,
+                    "name": "息税前利润(元)",
+                    "pCode": "profit"
+                },
+                {
+                    "code": "INC_TAX_EXP",
+                    "json": "{\"code\":\"INC_TAX_EXP\",\"menu\":\"profit\",\"tab\":\"finance\"}",
+                    "lable": "利润表:所得税(元)",
+                    "level": 3,
+                    "name": "所得税(元)",
+                    "pCode": "profit"
+                },
+                {
+                    "code": "FIN_EXP",
+                    "json": "{\"code\":\"FIN_EXP\",\"menu\":\"profit\",\"tab\":\"finance\"}",
+                    "lable": "利润表:财务费用(元)",
+                    "level": 3,
+                    "name": "财务费用(元)",
+                    "pCode": "profit"
+                },
+                {
+                    "code": "INV_INC",
+                    "json": "{\"code\":\"INV_INC\",\"menu\":\"profit\",\"tab\":\"finance\"}",
+                    "lable": "利润表:投资收益(元)",
+                    "level": 3,
+                    "name": "投资收益(元)",
+                    "pCode": "profit"
+                }
+            ],
+            "pCode": "finance",
+            "type": 2
+        },
+        {
+            "code": "liabilities",
+            "level": 2,
+            "name": "资产负债表",
+            "options": [
+                {
+                    "code": "TTL_CUR_AST",
+                    "json": "{\"code\":\"TTL_CUR_AST\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                    "lable": "资产负债表:流动资产合计",
+                    "level": 3,
+                    "name": "流动资产合计",
+                    "pCode": "liabilities"
+                },
+                {
+                    "code": "TTL_NCUR_AST",
+                    "json": "{\"code\":\"TTL_NCUR_AST\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                    "lable": "资产负债表:非流动资产合计",
+                    "level": 3,
+                    "name": "非流动资产合计",
+                    "pCode": "liabilities"
+                },
+                {
+                    "code": "TTL_CUR_LIAB",
+                    "json": "{\"code\":\"TTL_CUR_LIAB\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                    "lable": "资产负债表:流动负债合计",
+                    "level": 3,
+                    "name": "流动负债合计",
+                    "pCode": "liabilities"
+                },
+                {
+                    "code": "TTL_NCUR_LIAB",
+                    "json": "{\"code\":\"TTL_NCUR_LIAB\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                    "lable": "资产负债表:非流动负债合计",
+                    "level": 3,
+                    "name": "非流动负债合计",
+                    "pCode": "liabilities"
+                },
+                {
+                    "code": "TTL_LIAB",
+                    "json": "{\"code\":\"TTL_LIAB\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                    "lable": "资产负债表:负债合计",
+                    "level": 3,
+                    "name": "负债合计",
+                    "pCode": "liabilities"
+                },
+                {
+                    "code": "TTL_EQY_PCO",
+                    "json": "{\"code\":\"TTL_EQY_PCO\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                    "lable": "资产负债表:归属于上市公司股东权益合计",
+                    "level": 3,
+                    "name": "归属于上市公司股东权益合计",
+                    "pCode": "liabilities"
+                },
+                {
+                    "code": "SHEQY",
+                    "json": "{\"code\":\"SHEQY\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                    "lable": "资产负债表:所有者权益(或股东权益)合计",
+                    "level": 3,
+                    "name": "所有者权益(或股东权益)合计",
+                    "pCode": "liabilities"
+                },
+                {
+                    "code": "RET_PROF",
+                    "json": "{\"code\":\"RET_PROF\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                    "lable": "资产负债表:未分配利润",
+                    "level": 3,
+                    "name": "未分配利润",
+                    "pCode": "liabilities"
+                },
+                {
+                    "code": "MNY_CPTL",
+                    "json": "{\"code\":\"MNY_CPTL\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                    "lable": "资产负债表:货币资金",
+                    "level": 3,
+                    "name": "货币资金",
+                    "pCode": "liabilities"
+                },
+                {
+                    "code": "FIX_AST",
+                    "json": "{\"code\":\"FIX_AST\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                    "lable": "资产负债表:固定资产",
+                    "level": 3,
+                    "name": "固定资产",
+                    "pCode": "liabilities"
+                },
+                {
+                    "code": "LT_EQY_INV",
+                    "json": "{\"code\":\"LT_EQY_INV\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                    "lable": "资产负债表:长期股权投资",
+                    "level": 3,
+                    "name": "长期股权投资",
+                    "pCode": "liabilities"
+                },
+                {
+                    "code": "ACCT_RCV",
+                    "json": "{\"code\":\"ACCT_RCV\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                    "lable": "资产负债表:应收账款(净额)/应收款项",
+                    "level": 3,
+                    "name": "应收账款(净额)/应收款项",
+                    "pCode": "liabilities"
+                },
+                {
+                    "code": "INVT",
+                    "json": "{\"code\":\"INVT\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                    "lable": "资产负债表:存货",
+                    "level": 3,
+                    "name": "存货",
+                    "pCode": "liabilities"
+                },
+                {
+                    "code": "INTG_AST",
+                    "json": "{\"code\":\"INTG_AST\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                    "lable": "资产负债表:无形资产",
+                    "level": 3,
+                    "name": "无形资产",
+                    "pCode": "liabilities"
+                },
+                {
+                    "code": "TTL_AST",
+                    "json": "{\"code\":\"TTL_AST\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                    "lable": "资产负债表:资产总计",
+                    "level": 3,
+                    "name": "资产总计",
+                    "pCode": "liabilities"
+                },
+                {
+                    "code": "CPTL_RSV",
+                    "json": "{\"code\":\"CPTL_RSV\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                    "lable": "资产负债表:资本公积",
+                    "level": 3,
+                    "name": "资本公积",
+                    "pCode": "liabilities"
+                },
+                {
+                    "code": "CPTL_RSV",
+                    "json": "{\"code\":\"CPTL_RSV\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                    "lable": "资产负债表:实收资本(或股本)",
+                    "level": 3,
+                    "name": "实收资本(或股本)",
+                    "pCode": "liabilities"
+                }
+            ],
+            "pCode": "finance",
+            "type": 2
+        },
+        {
+            "code": "cash",
+            "level": 2,
+            "name": "现金流量表",
+            "options": [
+                {
+                    "code": "NET_CF_FIN",
+                    "json": "{\"code\":\"NET_CF_FIN\",\"menu\":\"cash\",\"tab\":\"finance\"}",
+                    "lable": "现金流量表:筹资活动产生的现金流量净额",
+                    "level": 3,
+                    "name": "筹资活动产生的现金流量净额",
+                    "pCode": "cash"
+                },
+                {
+                    "code": "CASH_EQ_NET_INCR",
+                    "json": "{\"code\":\"CASH_EQ_NET_INCR\",\"menu\":\"cash\",\"tab\":\"finance\"}",
+                    "lable": "现金流量表:现金及现金等价物净增加额",
+                    "level": 3,
+                    "name": "现金及现金等价物净增加额",
+                    "pCode": "cash"
+                },
+                {
+                    "code": "CASH_EQ_END",
+                    "json": "{\"code\":\"CASH_EQ_END\",\"menu\":\"cash\",\"tab\":\"finance\"}",
+                    "lable": "现金流量表:期末现金及现金等价物余额",
+                    "level": 3,
+                    "name": "期末现金及现金等价物余额",
+                    "pCode": "cash"
+                }
+            ],
+            "pCode": "finance",
+            "type": 2
+        }
+    ],
+    "code": "finance",
+    "level": 1,
+    "name": "财务科目",
+    "type": 1
+}

@@ -1,0 +1,1 @@
+{"code":"notice","level":1,"name":"公告事件","options":[{"code":"<","json":"{\"menu\":\"<\",\"tab\":\"notice\"}","lable":"公告事件:大股东增持股比例(%)","level":2,"name":"大股东增持股比例(%)","pCode":"notice"},{"code":">","json":"{\"menu\":\">\",\"tab\":\"notice\"}","lable":"公告事件:大股东减持股比例(%)","level":2,"name":"大股东减持股比例(%)","pCode":"notice"}],"type":2}

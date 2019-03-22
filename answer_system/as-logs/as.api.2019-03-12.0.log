@@ -1,0 +1,553 @@
+2019-03-12 08:54:38,451 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 6569 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 08:54:38,458 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 08:54:38,458 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 08:54:41,452 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 08:54:43,106 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.945 seconds (JVM running for 8.414)
+2019-03-12 08:59:26,650 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 6950 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 08:59:26,669 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 08:59:26,674 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 08:59:30,235 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 08:59:31,846 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.388 seconds (JVM running for 7.875)
+2019-03-12 09:00:57,581 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 7174 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 09:00:57,587 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 09:00:57,588 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 09:01:00,246 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 09:01:01,764 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 5.022 seconds (JVM running for 5.956)
+2019-03-12 09:01:13,084 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,describe,time,status FROM examination 
+2019-03-12 09:01:13,105 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 09:01:17,931 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,describe,time,status FROM examination 
+2019-03-12 09:01:17,932 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 09:16:31,796 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,describe,time,status FROM examination 
+2019-03-12 09:16:31,797 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 09:16:43,168 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,describe,time,status FROM examination 
+2019-03-12 09:16:43,169 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 09:17:04,009 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 8160 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 09:17:04,015 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 09:17:04,016 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 09:17:06,665 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 09:17:07,865 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 4.816 seconds (JVM running for 5.689)
+2019-03-12 09:17:25,582 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,desc,time,status FROM examination 
+2019-03-12 09:17:25,604 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 09:18:25,628 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 8304 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 09:18:25,641 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 09:18:25,641 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 09:18:28,023 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 09:18:29,582 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 5.272 seconds (JVM running for 6.514)
+2019-03-12 09:18:31,130 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 09:18:31,152 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 09:18:31,170 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 10:01:56,501 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 9621 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 10:01:56,515 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 10:01:56,518 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 10:01:59,454 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 10:02:00,880 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 5.247 seconds (JVM running for 6.532)
+2019-03-12 10:03:14,415 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 10:03:14,440 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 10:03:14,458 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 10:06:26,063 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 10:06:26,065 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 10:06:26,070 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 10:09:10,665 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 9950 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 10:09:10,683 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 10:09:10,684 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 10:09:13,283 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 10:09:14,822 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 5.136 seconds (JVM running for 6.196)
+2019-03-12 10:09:37,455 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 10071 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 10:09:37,462 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 10:09:37,563 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 10:09:40,342 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 10:09:41,871 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 5.29 seconds (JVM running for 6.222)
+2019-03-12 10:10:15,436 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 10210 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 10:10:15,444 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 10:10:15,444 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 10:10:17,905 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 10:10:19,524 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 4.98 seconds (JVM running for 6.033)
+2019-03-12 10:10:24,557 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 10:10:24,576 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 10:10:24,588 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 10:12:32,271 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 10429 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 10:12:32,288 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 10:12:32,289 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 10:12:35,052 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 10:12:36,747 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 5.565 seconds (JVM running for 6.667)
+2019-03-12 10:12:43,949 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 10:12:43,975 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 10:12:43,993 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 10:13:44,724 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 10579 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 10:13:44,728 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 10:13:44,729 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 10:13:47,440 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 10:13:49,022 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 5.27 seconds (JVM running for 6.27)
+2019-03-12 10:14:29,318 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 10:14:29,336 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 10:14:29,353 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 10:14:29,427 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 10:14:29,428 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 10:14:29,430 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 10:15:48,616 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 10758 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 10:15:48,622 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 10:15:48,623 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 10:15:50,792 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 10:15:52,303 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 4.958 seconds (JVM running for 5.925)
+2019-03-12 10:15:58,755 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 10:15:58,777 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 10:15:58,793 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 10:15:58,834 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 10:15:58,835 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 10:15:58,836 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 10:17:40,946 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 10911 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 10:17:40,955 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 10:17:40,956 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 10:17:43,804 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 10:17:58,405 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 11001 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 10:17:58,409 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 10:17:58,410 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 10:18:01,163 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 10:19:32,382 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 11113 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 10:19:32,398 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 10:19:32,399 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 10:19:34,668 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 10:19:36,208 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 5.027 seconds (JVM running for 5.902)
+2019-03-12 10:19:41,375 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 10:19:41,396 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 10:19:41,413 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 10:19:41,470 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 10:19:41,471 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 10:19:41,473 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 10:21:04,679 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 11277 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 10:21:04,684 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 10:21:04,684 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 10:21:06,985 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 10:21:08,406 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 4.861 seconds (JVM running for 5.733)
+2019-03-12 10:21:24,489 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 10:21:24,507 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 10:21:24,520 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 10:21:24,571 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 10:21:24,572 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 10:21:24,574 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 10:23:31,678 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 11433 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 10:23:31,682 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 10:23:31,684 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 10:23:34,892 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 10:23:36,276 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 5.401 seconds (JVM running for 6.188)
+2019-03-12 10:23:47,868 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 10:23:47,895 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 10:23:47,913 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 10:23:47,964 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 10:23:47,965 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 10:23:47,967 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 10:25:41,613 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 11612 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 10:25:41,632 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 10:25:41,633 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 10:25:44,429 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 10:25:45,744 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 5.167 seconds (JVM running for 6.226)
+2019-03-12 10:30:03,689 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 11876 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 10:30:03,703 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 10:30:03,703 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 10:30:06,243 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 10:31:39,619 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 12005 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 10:31:39,634 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 10:31:39,634 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 10:31:42,815 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 10:31:44,330 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.11 seconds (JVM running for 7.203)
+2019-03-12 10:31:56,924 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 10:31:56,949 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 10:31:56,968 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-12 10:31:56,973 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 10:31:56,975 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 10:31:56,980 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 10:33:09,551 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 12180 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 10:33:09,562 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 10:33:09,563 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 10:33:11,993 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 10:33:13,209 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 4.872 seconds (JVM running for 5.971)
+2019-03-12 10:34:22,901 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 10:34:22,919 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 10:34:22,939 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 10:34:22,991 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 10:34:22,992 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 10:34:22,994 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 10:34:22,996 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 10:34:22,997 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 10:34:23,000 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-12 10:38:58,711 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 12407 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 10:38:58,716 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 10:38:58,717 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 10:39:00,925 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 10:39:02,643 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 5.403 seconds (JVM running for 6.609)
+2019-03-12 10:40:31,472 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 12562 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 10:40:31,475 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 10:40:31,476 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 10:40:33,503 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 10:40:35,207 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 4.617 seconds (JVM running for 10.568)
+2019-03-12 10:40:36,481 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 10:40:36,503 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 10:40:36,519 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 10:40:36,526 DEBUG (ExaminationController.java:51)- 法学
+2019-03-12 10:40:36,556 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 10:40:36,557 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 10:40:36,559 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 10:40:36,561 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 10:40:36,562 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 10:40:36,564 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-12 10:42:24,389 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 10:42:24,390 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 10:42:24,395 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 10:54:44,896 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 10:54:44,896 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 10:54:44,902 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 10:56:49,671 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 10:56:49,674 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 10:56:49,683 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 10:57:08,937 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 10:57:08,939 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 10:57:08,945 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 10:57:23,104 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 10:57:23,105 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 10:57:23,109 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 10:57:29,753 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 10:57:29,754 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 10:57:29,757 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 11:14:04,689 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 13627 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 11:14:04,718 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 11:14:04,719 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 11:14:10,230 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 11:14:12,904 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 11.508 seconds (JVM running for 17.555)
+2019-03-12 11:14:53,258 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 11:14:53,280 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 11:14:53,306 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 11:27:31,489 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 11:27:31,490 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 11:27:31,517 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 11:28:16,138 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 11:28:16,139 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 11:28:16,144 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 11:28:49,570 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 11:28:49,571 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 11:28:49,577 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 11:54:44,908 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 11:54:44,909 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 11:54:44,913 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 12:09:17,576 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 12:09:17,577 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 12:09:17,583 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 12:09:52,776 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 12:09:52,777 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 12:09:52,781 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 12:11:01,775 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 12:11:01,777 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 12:11:01,785 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 12:11:04,489 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 12:11:04,490 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 12:11:04,495 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 12:11:09,740 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 12:11:09,741 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 12:11:09,750 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 12:13:25,997 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 12:13:25,998 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 12:13:26,001 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 12:13:37,647 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 12:13:37,648 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 12:13:37,650 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 12:13:44,920 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 12:13:44,922 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 12:13:44,925 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 12:13:47,448 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 12:13:47,449 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 12:13:47,454 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 12:23:24,776 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 12:23:24,777 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 12:23:24,782 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 12:23:27,626 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 12:23:27,628 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 12:23:27,631 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 12:26:46,923 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 12:26:46,924 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 12:26:46,926 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 12:27:03,458 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 12:27:03,461 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 12:27:03,463 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 12:31:03,229 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 12:31:03,230 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 12:31:03,232 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 12:31:05,863 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 12:31:05,864 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 12:31:05,866 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 12:40:57,286 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 12:40:57,303 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 12:40:57,305 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 12:42:06,530 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 12:42:06,531 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 12:42:06,533 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 12:42:21,895 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 12:42:21,895 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 12:42:21,899 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 12:42:40,806 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 12:42:40,807 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 12:42:40,809 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 12:44:13,640 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 12:44:13,713 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 12:44:13,714 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 12:50:41,049 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 12:50:41,049 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 12:50:41,053 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 12:59:28,245 DEBUG (UserController.java:45)- =======================begin===============
+2019-03-12 12:59:28,444 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-12 12:59:28,445 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: xxxxx@qq.com(String)
+2019-03-12 12:59:28,679 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 12:59:28,744 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 12:59:28,745 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 12:59:28,747 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 15:24:15,032 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 17940 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 15:24:15,035 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 15:24:15,035 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 15:24:21,864 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 15:24:24,021 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 11.657 seconds (JVM running for 17.087)
+2019-03-12 15:28:19,339 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 15:28:19,373 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 15:28:19,401 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 15:30:51,344 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 15:30:51,347 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 15:30:51,429 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 15:30:51,437 DEBUG (ExaminationController.java:51)- 法学
+2019-03-12 15:30:51,482 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 15:30:51,484 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 15:30:51,486 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 15:30:51,489 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 15:30:51,490 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 15:30:51,494 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-12 18:29:36,820 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 18:29:36,822 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 18:29:36,828 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 18:29:39,246 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 18:29:39,247 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 18:29:39,251 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 18:30:28,173 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 18:30:28,174 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 18:30:28,180 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 18:30:30,971 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 18:30:30,972 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 18:30:30,975 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 18:30:59,150 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 18:30:59,151 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 18:30:59,158 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 18:33:40,103 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 18:33:40,104 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 18:33:40,117 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 18:39:57,308 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 18:39:57,309 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 18:39:57,314 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 18:40:15,595 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 18:40:15,596 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 18:40:15,598 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 20:41:59,264 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 20:41:59,266 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 20:41:59,270 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 20:45:16,966 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-12 20:45:16,967 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-12 20:45:16,971 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-12 22:04:19,831 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 22:04:19,832 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:04:19,888 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:04:19,889 DEBUG (ExaminationController.java:51)- 法学
+2019-03-12 22:04:19,892 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 22:04:19,894 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:04:19,897 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:04:19,901 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 22:04:19,902 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 22:04:19,905 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-12 22:04:22,556 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 22:04:22,557 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:04:22,559 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:04:22,560 DEBUG (ExaminationController.java:51)- 法学
+2019-03-12 22:04:22,562 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 22:04:22,563 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:04:22,568 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:04:22,570 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 22:04:22,571 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 22:04:22,573 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-12 22:04:27,062 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 22:04:27,063 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:04:27,064 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:04:27,065 DEBUG (ExaminationController.java:51)- 法学
+2019-03-12 22:04:27,067 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 22:04:27,068 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:04:27,070 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:04:27,073 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 22:04:27,076 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 22:04:27,079 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-12 22:04:40,418 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 22:04:40,419 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:04:40,420 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:04:40,421 DEBUG (ExaminationController.java:51)- 法学
+2019-03-12 22:04:40,423 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 22:04:40,424 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:04:40,428 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:04:40,430 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 22:04:40,431 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 22:04:40,434 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-12 22:06:09,406 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 22:06:09,407 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:06:09,441 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:06:09,442 DEBUG (ExaminationController.java:51)- 法学
+2019-03-12 22:06:09,446 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 22:06:09,449 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:06:09,450 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:06:09,454 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 22:06:09,455 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 22:06:09,456 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-12 22:14:51,794 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 25132 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-12 22:14:51,797 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-12 22:14:51,798 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-12 22:14:56,699 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-12 22:14:58,413 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 8.381 seconds (JVM running for 10.085)
+2019-03-12 22:15:12,286 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 22:15:12,312 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:15:12,329 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:15:12,338 DEBUG (ExaminationController.java:51)- 法学
+2019-03-12 22:15:12,374 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 22:15:12,375 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:15:12,377 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:15:12,380 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 22:15:12,382 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 22:15:12,384 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-12 22:15:29,938 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 22:15:29,940 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:15:29,942 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:15:29,943 DEBUG (ExaminationController.java:51)- 法学
+2019-03-12 22:15:29,945 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 22:15:29,946 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:15:29,950 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:15:29,952 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 22:15:29,953 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 22:15:29,956 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-12 22:16:43,719 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 22:16:43,720 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:16:43,721 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:16:43,722 DEBUG (ExaminationController.java:51)- 法学
+2019-03-12 22:16:43,729 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 22:16:43,730 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:16:43,732 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:16:43,736 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 22:16:43,737 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 22:16:43,741 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-12 22:18:24,268 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 22:18:24,270 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:18:24,272 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:18:24,273 DEBUG (ExaminationController.java:51)- 法学
+2019-03-12 22:18:24,279 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 22:18:24,281 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:18:24,286 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:18:24,289 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 22:18:24,293 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 22:18:24,305 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-12 22:18:37,660 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 22:18:37,661 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:18:37,663 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:18:37,664 DEBUG (ExaminationController.java:51)- 法学
+2019-03-12 22:18:37,666 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 22:18:37,667 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:18:37,670 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:18:37,675 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 22:18:37,676 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 22:18:37,682 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-12 22:20:08,029 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 22:20:08,031 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:20:08,037 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:20:08,043 DEBUG (ExaminationController.java:51)- 法学
+2019-03-12 22:20:08,046 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 22:20:08,047 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:20:08,049 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:20:08,052 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 22:20:08,053 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 22:20:08,056 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-12 22:24:29,949 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 22:24:29,951 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:24:29,963 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:24:29,964 DEBUG (ExaminationController.java:51)- 法学
+2019-03-12 22:24:29,967 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 22:24:29,971 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:24:29,977 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:24:29,985 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 22:24:29,987 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 22:24:29,995 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-12 22:26:56,014 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 22:26:56,015 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:26:56,018 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:26:56,023 DEBUG (ExaminationController.java:51)- 法学
+2019-03-12 22:26:56,028 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 22:26:56,029 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:26:56,030 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:26:56,035 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 22:26:56,036 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 22:26:56,039 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-12 22:28:26,411 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 22:28:26,412 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:28:26,415 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:28:26,417 DEBUG (ExaminationController.java:51)- 法学
+2019-03-12 22:28:26,419 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 22:28:26,421 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:28:26,423 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:28:26,426 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 22:28:26,428 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 22:28:26,430 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-12 22:28:54,924 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 22:28:54,924 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:28:54,926 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:28:54,927 DEBUG (ExaminationController.java:51)- 法学
+2019-03-12 22:28:54,929 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 22:28:54,929 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:28:54,931 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:28:54,933 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 22:28:54,934 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 22:28:54,937 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-12 22:29:42,472 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 22:29:42,473 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:29:42,476 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:29:42,481 DEBUG (ExaminationController.java:51)- 法学
+2019-03-12 22:29:42,486 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 22:29:42,488 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:29:42,490 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:29:42,493 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 22:29:42,494 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 22:29:42,499 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-12 22:29:50,250 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 22:29:50,251 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:29:50,254 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:29:50,255 DEBUG (ExaminationController.java:51)- 法学
+2019-03-12 22:29:50,256 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 22:29:50,257 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:29:50,261 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:29:50,263 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 22:29:50,264 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 22:29:50,266 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-12 22:30:17,837 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 22:30:17,840 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:30:17,845 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:30:17,848 DEBUG (ExaminationController.java:51)- 法学
+2019-03-12 22:30:17,853 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 22:30:17,856 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:30:17,868 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:30:17,875 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 22:30:17,876 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 22:30:17,881 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-12 22:30:19,655 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 22:30:19,656 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:30:19,658 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:30:19,658 DEBUG (ExaminationController.java:51)- 法学
+2019-03-12 22:30:19,659 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 22:30:19,660 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:30:19,662 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:30:19,664 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 22:30:19,665 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 22:30:19,667 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-12 22:32:49,400 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination WHERE id = ? 
+2019-03-12 22:32:49,401 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:32:49,403 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:32:49,408 DEBUG (ExaminationController.java:51)- 法学
+2019-03-12 22:32:49,409 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination FROM question WHERE ( examination = ? ) 
+2019-03-12 22:32:49,411 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-12 22:32:49,412 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-12 22:32:49,414 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-12 22:32:49,419 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-12 22:32:49,425 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4

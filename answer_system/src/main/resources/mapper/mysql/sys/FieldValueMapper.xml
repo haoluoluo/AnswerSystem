@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.luoluohao.answer_system.x.as.sys.dao.mapper.FieldValueMapper">
+  <resultMap id="BaseResultMap" type="com.luoluohao.answer_system.x.as.sys.dto.entity.FieldValue">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="field_name" jdbcType="INTEGER" property="fieldName" />
+    <result column="tag" jdbcType="VARCHAR" property="tag" />
+    <result column="value" jdbcType="INTEGER" property="value" />
+    <result column="parse" jdbcType="VARCHAR" property="parse" />
+    <result column="is_deleted" jdbcType="BIT" property="isDeleted" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="properties" jdbcType="LONGVARCHAR" property="properties" />
+  </resultMap>
+  <select id="selectFieldValuesByFieldNameId" resultMap="BaseResultMap" parameterType="java.util.HashMap">
+    SELECT id, field_name, `value`, parse, properties FROM sys_field_value fv WHERE 1 = 1 AND fv.field_name = #{fnid,jdbcType=INTEGER}
+  </select>
+</mapper>

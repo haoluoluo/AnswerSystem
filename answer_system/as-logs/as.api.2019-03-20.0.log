@@ -1,0 +1,717 @@
+2019-03-20 00:04:41,878 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 7252 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 00:04:41,898 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 00:04:41,899 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 00:04:45,567 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 00:04:47,480 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.458 seconds (JVM running for 7.707)
+2019-03-20 00:04:55,162 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 00:04:55,180 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 00:04:55,194 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 00:05:31,262 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 7402 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 00:05:31,270 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 00:05:31,271 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 00:05:35,055 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 00:05:37,300 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 7.238 seconds (JVM running for 9.108)
+2019-03-20 00:05:43,620 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 00:05:43,643 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 00:05:43,657 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 00:07:07,204 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 7612 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 00:07:07,206 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 00:07:07,207 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 00:07:09,495 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 00:07:11,373 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 5.211 seconds (JVM running for 16.396)
+2019-03-20 00:07:44,166 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 00:07:44,195 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 00:07:44,211 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 00:14:24,320 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 8298 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 00:14:24,331 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 00:14:24,332 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 00:14:28,679 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 00:14:30,718 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 7.504 seconds (JVM running for 8.697)
+2019-03-20 00:15:50,276 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 8494 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 00:15:50,280 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 00:15:50,281 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 00:16:04,325 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 8556 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 00:16:04,331 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 00:16:04,331 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 00:16:31,353 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 8620 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 00:16:31,366 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 00:16:31,377 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 00:16:34,951 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 00:16:36,716 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.264 seconds (JVM running for 7.325)
+2019-03-20 00:16:41,331 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 00:16:41,354 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 00:16:41,368 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 00:18:57,693 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 8904 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 00:18:57,704 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 00:18:57,705 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 00:19:01,317 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 00:19:03,380 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.911 seconds (JVM running for 8.325)
+2019-03-20 00:21:08,838 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 9084 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 00:21:08,842 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 00:21:08,843 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 00:21:11,973 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 00:21:13,989 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.212 seconds (JVM running for 7.365)
+2019-03-20 00:21:26,671 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 00:21:26,700 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 00:21:26,714 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 00:24:58,943 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 9404 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 00:24:58,958 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 00:24:58,967 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 00:25:02,414 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 00:25:04,597 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 7.408 seconds (JVM running for 8.969)
+2019-03-20 00:36:04,250 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 00:36:04,272 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 00:36:04,286 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 00:37:24,524 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 10033 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 00:37:24,530 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 00:37:24,530 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 00:37:27,349 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 00:37:29,454 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 5.735 seconds (JVM running for 7.015)
+2019-03-20 00:37:41,503 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 00:37:41,527 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 00:37:41,546 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 00:38:44,481 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 10188 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 00:38:44,485 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 00:38:44,487 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 00:38:47,246 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 00:38:49,215 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 5.713 seconds (JVM running for 6.94)
+2019-03-20 00:39:03,096 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 00:39:03,129 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 00:39:03,146 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 00:39:54,887 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 10346 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 00:39:54,897 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 00:39:54,899 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 00:39:57,927 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 00:39:59,810 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.041 seconds (JVM running for 7.194)
+2019-03-20 00:40:06,770 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 00:40:06,801 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 00:40:06,819 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 00:40:57,007 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 10485 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 00:40:57,022 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 00:40:57,023 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 00:41:00,021 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 00:41:02,076 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.342 seconds (JVM running for 7.72)
+2019-03-20 00:41:05,426 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 00:41:05,450 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 00:41:05,463 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 00:41:41,165 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 10621 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 00:41:41,181 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 00:41:41,181 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 00:41:44,116 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 00:41:46,183 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.141 seconds (JVM running for 7.675)
+2019-03-20 00:41:47,079 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 00:41:47,125 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 00:41:47,187 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 00:43:10,537 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 10776 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 00:43:10,540 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 00:43:10,541 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 00:43:13,544 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 00:43:15,766 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.926 seconds (JVM running for 8.079)
+2019-03-20 00:44:01,449 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 00:44:01,476 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 00:44:01,495 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 00:44:40,676 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 11107 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 00:44:40,694 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 00:44:40,695 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 00:44:43,380 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 00:44:45,524 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.017 seconds (JVM running for 7.311)
+2019-03-20 00:45:20,416 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 00:45:20,435 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 00:45:20,459 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 00:52:03,015 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 11659 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 00:52:03,021 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 00:52:03,022 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 00:52:06,985 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 00:52:09,025 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 7.09 seconds (JVM running for 8.479)
+2019-03-20 00:52:20,276 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 00:52:20,304 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 00:52:20,328 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 01:03:20,212 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 12144 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 01:03:20,219 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 01:03:20,220 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 01:03:24,375 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 01:03:26,559 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 8.026 seconds (JVM running for 9.357)
+2019-03-20 01:03:38,364 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 12279 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 01:03:38,383 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 01:03:38,384 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 01:03:40,912 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 01:03:42,750 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 5.807 seconds (JVM running for 7.497)
+2019-03-20 01:03:48,345 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 01:03:48,365 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 01:03:48,378 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 01:03:49,790 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO crm_user_token ( id,user,useage_type,token,state,register_uuid,property,is_deleted,update_time,create_time ) VALUES( ?,?,?,?,?,?,?,?,?,? ) 
+2019-03-20 01:03:49,792 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null, 0(Integer), 2(Integer), 899B8868E362114CDE033A8AFDB38DE5(String), 1(Integer), da6c15932d2947b79ae8eaaa01bf2550(String), 18852985129@163.com,123456(String), false(Boolean), 2019-03-20 01:03:49.786(Timestamp), 2019-03-20 01:03:49.786(Timestamp)
+2019-03-20 01:03:50,333 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-03-20 01:03:50,338 DEBUG (BaseJdbcLogger.java:159)- ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-03-20 01:03:50,341 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 10:08:58,393 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 4763 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 10:08:58,440 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 10:08:58,440 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 10:09:06,491 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 10:09:10,672 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 19.826 seconds (JVM running for 23.667)
+2019-03-20 10:14:48,967 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 5237 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 10:14:49,013 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 10:14:49,014 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 10:14:52,393 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 10:14:54,678 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 7.535 seconds (JVM running for 10.7)
+2019-03-20 10:18:59,645 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 10:18:59,670 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 10:18:59,697 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 10:25:25,931 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 10:25:25,932 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: fwo@qq.com(String)
+2019-03-20 10:25:25,940 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 10:25:28,705 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO crm_user_token ( id,user,useage_type,token,state,register_uuid,property,is_deleted,update_time,create_time ) VALUES( ?,?,?,?,?,?,?,?,?,? ) 
+2019-03-20 10:25:28,708 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null, 0(Integer), 2(Integer), ECCA62A742FC9D3C4478B99293D5BF1C(String), 1(Integer), 1f7989d455924c72a7d882c8dd05b17d(String), fwo@qq.com,fwo@qq.com,123(String), false(Boolean), 2019-03-20 10:25:28.701(Timestamp), 2019-03-20 10:25:28.701(Timestamp)
+2019-03-20 10:25:28,767 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-03-20 10:25:28,770 DEBUG (BaseJdbcLogger.java:159)- ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-03-20 10:25:28,773 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 10:26:45,593 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 10:26:45,595 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 10:26:45,599 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 10:27:57,433 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 10:27:57,434 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 10:27:57,436 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 10:27:58,293 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO crm_user_token ( id,user,useage_type,token,state,register_uuid,property,is_deleted,update_time,create_time ) VALUES( ?,?,?,?,?,?,?,?,?,? ) 
+2019-03-20 10:27:58,295 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null, 0(Integer), 2(Integer), 90C4EF83FA79BB899CD7C155C059DF87(String), 1(Integer), 6a8ed1dfc0dd46a2b35f6f252c42899b(String), 郝珞珞,18852985129@163.com,123456(String), false(Boolean), 2019-03-20 10:27:58.291(Timestamp), 2019-03-20 10:27:58.291(Timestamp)
+2019-03-20 10:27:58,370 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-03-20 10:27:58,371 DEBUG (BaseJdbcLogger.java:159)- ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-03-20 10:27:58,376 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 10:32:11,359 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 10:32:11,361 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852981529@163.com(String)
+2019-03-20 10:32:11,363 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 10:32:32,620 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 10:32:32,621 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852981529@163.com(String)
+2019-03-20 10:32:32,623 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 10:32:53,093 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 10:32:53,094 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852981529@163.com(String)
+2019-03-20 10:32:53,096 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 10:33:42,600 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 10:33:42,602 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 10:33:42,603 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 10:33:43,437 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO crm_user_token ( id,user,useage_type,token,state,register_uuid,property,is_deleted,update_time,create_time ) VALUES( ?,?,?,?,?,?,?,?,?,? ) 
+2019-03-20 10:33:43,440 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null, 0(Integer), 2(Integer), 6662E75530BADF51AE34CEE60C6CF7BA(String), 1(Integer), 7313d32725844ce894a2ad34beac3886(String), 郝珞珞,18852985129@163.com,123456(String), false(Boolean), 2019-03-20 10:33:43.436(Timestamp), 2019-03-20 10:33:43.436(Timestamp)
+2019-03-20 10:33:43,522 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-03-20 10:33:43,523 DEBUG (BaseJdbcLogger.java:159)- ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-03-20 10:33:43,524 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 10:34:05,822 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,user,useage_type,token,state,register_uuid,expire_time,property,is_deleted,update_time,create_time FROM crm_user_token WHERE ( state = ? and useage_type = ? and token = ? and register_uuid = ? ) 
+2019-03-20 10:34:05,823 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer), 2(Integer), 6662E75530BADF51AE34CEE60C6CF7BA(String), 7313d32725844ce894a2ad34beac3886(String)
+2019-03-20 10:34:05,893 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 10:34:05,899 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO user ( userno,username,password,email,gender,status,newdate ) VALUES( ?,?,?,?,?,?,? ) 
+2019-03-20 10:34:05,901 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null, 郝珞珞(String), 123456(String), 18852985129@163.com(String), null, 1(Integer), 123(String)
+2019-03-20 10:34:05,922 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-03-20 10:34:05,924 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update crm_user_token set state = 2 where user = ? and state = 1 
+2019-03-20 10:34:05,924 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 0(Integer)
+2019-03-20 10:34:05,977 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 4
+2019-03-20 13:47:34,068 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 9426 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 13:47:34,077 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 13:47:34,099 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 13:47:36,820 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 13:47:38,853 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.463 seconds (JVM running for 8.815)
+2019-03-20 13:52:19,238 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 13:52:19,297 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 13:52:19,343 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 13:52:19,346 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update crm_user_token set state = 2 where user = ? and state = 1 
+2019-03-20 13:52:19,347 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 8(Integer)
+2019-03-20 13:52:19,349 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 0
+2019-03-20 13:52:19,350 DEBUG (UserController.java:219)- 更新郝珞珞token失效0条
+2019-03-20 13:52:19,357 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO crm_user_token ( id,user,useage_type,token,state,expire_time,update_time,create_time ) VALUES( ?,?,?,?,?,?,?,? ) 
+2019-03-20 13:52:19,359 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null, 8(Integer), 1(Integer), 497C82BDD645EAB240F28C84C159A5B0(String), 1(Integer), 2019-03-21 13:52:19.352(Timestamp), 2019-03-20 13:52:19.352(Timestamp), 2019-03-20 13:52:19.352(Timestamp)
+2019-03-20 13:52:19,408 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-03-20 13:52:19,411 DEBUG (BaseJdbcLogger.java:159)- ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-03-20 13:52:19,434 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 13:52:37,796 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 13:52:37,799 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 13:52:37,801 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 13:52:37,804 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update crm_user_token set state = 2 where user = ? and state = 1 
+2019-03-20 13:52:37,805 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 8(Integer)
+2019-03-20 13:52:37,858 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-03-20 13:52:37,859 DEBUG (UserController.java:219)- 更新郝珞珞token失效1条
+2019-03-20 13:52:37,865 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO crm_user_token ( id,user,useage_type,token,state,expire_time,update_time,create_time ) VALUES( ?,?,?,?,?,?,?,? ) 
+2019-03-20 13:52:37,867 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null, 8(Integer), 1(Integer), A9244CE80C35C195D2103CA9D9E9B264(String), 1(Integer), 2019-03-21 13:52:37.861(Timestamp), 2019-03-20 13:52:37.861(Timestamp), 2019-03-20 13:52:37.861(Timestamp)
+2019-03-20 13:52:37,903 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-03-20 13:52:37,904 DEBUG (BaseJdbcLogger.java:159)- ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-03-20 13:52:37,905 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 13:53:00,450 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 13:53:00,451 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 13:53:00,453 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 13:53:00,454 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update crm_user_token set state = 2 where user = ? and state = 1 
+2019-03-20 13:53:00,455 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 8(Integer)
+2019-03-20 13:53:00,525 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-03-20 13:53:00,526 DEBUG (UserController.java:219)- 更新郝珞珞token失效1条
+2019-03-20 13:53:00,528 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO crm_user_token ( id,user,useage_type,token,state,expire_time,update_time,create_time ) VALUES( ?,?,?,?,?,?,?,? ) 
+2019-03-20 13:53:00,531 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null, 8(Integer), 1(Integer), C1B98C7046EBD2FCF055078586167B07(String), 1(Integer), 2019-03-21 13:53:00.527(Timestamp), 2019-03-20 13:53:00.527(Timestamp), 2019-03-20 13:53:00.527(Timestamp)
+2019-03-20 13:53:00,559 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-03-20 13:53:00,560 DEBUG (BaseJdbcLogger.java:159)- ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-03-20 13:53:00,562 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 13:53:04,598 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 13:53:04,599 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 13:53:04,604 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 13:53:04,606 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update crm_user_token set state = 2 where user = ? and state = 1 
+2019-03-20 13:53:04,607 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 8(Integer)
+2019-03-20 13:53:04,654 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-03-20 13:53:04,655 DEBUG (UserController.java:219)- 更新郝珞珞token失效1条
+2019-03-20 13:53:04,657 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO crm_user_token ( id,user,useage_type,token,state,expire_time,update_time,create_time ) VALUES( ?,?,?,?,?,?,?,? ) 
+2019-03-20 13:53:04,660 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null, 8(Integer), 1(Integer), 23CE869C35E0A66A9FE3234675FFDB01(String), 1(Integer), 2019-03-21 13:53:04.656(Timestamp), 2019-03-20 13:53:04.656(Timestamp), 2019-03-20 13:53:04.656(Timestamp)
+2019-03-20 13:53:04,687 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-03-20 13:53:04,689 DEBUG (BaseJdbcLogger.java:159)- ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-03-20 13:53:04,690 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 13:53:29,485 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-20 13:53:29,485 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18852985129@163.com(String)
+2019-03-20 13:53:29,487 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 13:53:29,490 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update crm_user_token set state = 2 where user = ? and state = 1 
+2019-03-20 13:53:29,491 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 8(Integer)
+2019-03-20 13:53:29,539 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-03-20 13:53:29,539 DEBUG (UserController.java:219)- 更新郝珞珞token失效1条
+2019-03-20 13:53:29,540 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO crm_user_token ( id,user,useage_type,token,state,expire_time,update_time,create_time ) VALUES( ?,?,?,?,?,?,?,? ) 
+2019-03-20 13:53:29,542 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null, 8(Integer), 1(Integer), 2FB3DB85A11DEA4AF0BFE9519EBC5DD9(String), 1(Integer), 2019-03-21 13:53:29.539(Timestamp), 2019-03-20 13:53:29.539(Timestamp), 2019-03-20 13:53:29.539(Timestamp)
+2019-03-20 13:53:29,572 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-03-20 13:53:29,573 DEBUG (BaseJdbcLogger.java:159)- ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-03-20 13:53:29,574 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 13:56:16,477 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,user,useage_type,token,state,register_uuid,expire_time,property,is_deleted,update_time,create_time FROM crm_user_token WHERE ( state = ? and token = ? ) 
+2019-03-20 13:56:16,478 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer), 2FB3DB85A11DEA4AF0BFE9519EBC5DD9(String)
+2019-03-20 13:56:16,481 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 13:56:16,485 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE userno = ? 
+2019-03-20 13:56:16,486 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 8(Integer)
+2019-03-20 13:56:16,487 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 13:56:16,488 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE user SET userno = userno,username = ?,password = ?,email = ?,gender = ?,status = ?,newdate = ? WHERE userno = ? 
+2019-03-20 13:56:16,489 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 郝珞珞(String), 123456(String), 18852985129@163.com(String), null, 1(Integer), 123(String), 8(Integer)
+2019-03-20 13:56:16,524 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-03-20 13:56:16,525 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update crm_user_token set state = 2 where user = ? and state = 1 
+2019-03-20 13:56:16,525 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 8(Integer)
+2019-03-20 13:56:16,557 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-03-20 13:56:16,559 DEBUG (UserController.java:291)- 更新郝珞珞token失效1条
+2019-03-20 14:48:58,606 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 12138 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 14:48:58,616 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 14:48:58,617 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 14:49:01,746 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 14:49:05,291 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 8.705 seconds (JVM running for 10.174)
+2019-03-20 14:56:22,461 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user 
+2019-03-20 14:56:22,505 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 14:56:22,528 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-20 14:56:25,530 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-20 14:56:25,531 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 14:56:25,536 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 14:56:31,648 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,token FROM question WHERE ( examination = ? ) 
+2019-03-20 14:56:31,650 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 14:56:31,652 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 14:56:31,663 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-20 14:56:31,664 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 14:56:31,665 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 14:56:46,158 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,token FROM question WHERE ( examination = ? ) 
+2019-03-20 14:56:46,159 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 14:56:46,162 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 14:56:46,164 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-20 14:56:46,165 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 14:56:46,169 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 14:56:51,953 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-20 14:56:51,954 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 14:56:51,959 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 14:56:54,042 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,token FROM question WHERE ( examination = ? ) 
+2019-03-20 14:56:54,044 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 14:56:54,046 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 14:56:54,049 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-20 14:56:54,051 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 14:56:54,055 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 14:58:19,706 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,token FROM question WHERE ( examination = ? ) 
+2019-03-20 14:58:19,707 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 14:58:19,711 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 14:58:19,716 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-20 14:58:19,718 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 14:58:19,726 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 14:58:52,259 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-20 14:58:52,260 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 14:58:52,262 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 14:59:03,710 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,token FROM question WHERE ( examination = ? ) 
+2019-03-20 14:59:03,711 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 14:59:03,714 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 14:59:03,720 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-20 14:59:03,721 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 14:59:03,728 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 15:29:11,367 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-20 15:29:11,389 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 15:29:11,423 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 15:29:13,422 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,token FROM question WHERE ( examination = ? ) 
+2019-03-20 15:29:13,425 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 15:29:13,429 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 15:29:13,434 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-20 15:29:13,438 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 15:29:13,440 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 15:29:24,789 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-20 15:29:24,790 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 15:29:24,792 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 15:29:26,210 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,token FROM question WHERE ( examination = ? ) 
+2019-03-20 15:29:26,211 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 15:29:26,213 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 15:29:26,215 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-20 15:29:26,216 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 15:29:26,217 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 15:31:05,203 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-20 15:31:05,204 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 15:31:05,206 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 15:31:08,521 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,token FROM question WHERE ( examination = ? ) 
+2019-03-20 15:31:08,522 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 15:31:08,524 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 15:31:08,531 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-20 15:31:08,534 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 15:31:08,537 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 15:32:43,640 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user 
+2019-03-20 15:32:43,641 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 15:32:43,643 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-20 15:32:45,327 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-20 15:32:45,328 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 15:32:45,330 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 15:32:47,014 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,token FROM question WHERE ( examination = ? ) 
+2019-03-20 15:32:47,015 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 15:32:47,017 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 15:32:47,019 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-20 15:32:47,020 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 15:32:47,025 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 15:33:01,207 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-20 15:33:01,208 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 15:33:01,210 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 15:33:02,250 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,user,acnumber,ernumber,scope,examination,examinationName,username FROM records 
+2019-03-20 15:33:02,253 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 15:33:02,355 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 15:33:07,085 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-20 15:33:07,086 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 15:33:07,088 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 15:33:08,483 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,token FROM question WHERE ( examination = ? ) 
+2019-03-20 15:33:08,484 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 15:33:08,485 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 15:33:08,489 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-20 15:33:08,492 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 15:33:08,495 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 15:33:15,234 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-20 15:33:15,235 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 15:33:15,237 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 15:33:16,761 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,token FROM question WHERE ( examination = ? ) 
+2019-03-20 15:33:16,762 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 15:33:16,763 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 15:33:16,767 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-20 15:33:16,768 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 15:33:16,770 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 15:33:23,915 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,token FROM question WHERE ( examination = ? ) 
+2019-03-20 15:33:23,916 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 15:33:23,918 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 15:33:23,920 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-20 15:33:23,921 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 15:33:23,923 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 16:10:04,962 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 15244 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 16:10:04,966 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 16:10:04,966 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 16:10:12,474 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 16:10:15,108 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 12.096 seconds (JVM running for 15.029)
+2019-03-20 16:10:50,599 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user 
+2019-03-20 16:10:50,619 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 16:10:50,635 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-20 16:10:50,759 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status,type FROM examination 
+2019-03-20 16:10:50,760 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 16:10:50,765 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 16:10:52,801 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,type,token FROM question WHERE ( examination = ? ) 
+2019-03-20 16:10:52,802 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 16:10:52,804 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 16:10:52,812 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 16:10:52,812 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 16:10:52,814 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 17:33:47,451 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user 
+2019-03-20 17:33:47,506 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 17:33:47,586 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-20 17:33:49,580 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status,type FROM examination 
+2019-03-20 17:33:49,581 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 17:33:49,697 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 17:33:53,087 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status,type FROM examination 
+2019-03-20 17:33:53,088 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 17:33:53,093 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 17:33:56,011 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status,type FROM examination 
+2019-03-20 17:33:56,013 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 17:33:56,020 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 17:34:31,856 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status,type FROM examination 
+2019-03-20 17:34:31,857 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 17:34:31,859 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 17:34:39,514 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status,type FROM examination 
+2019-03-20 17:34:39,514 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 17:34:39,517 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 17:34:45,452 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status,type FROM examination 
+2019-03-20 17:34:45,455 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 17:34:45,469 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 17:35:09,498 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status,type FROM examination 
+2019-03-20 17:35:09,498 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 17:35:09,501 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 17:43:43,422 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status,type FROM examination 
+2019-03-20 17:43:43,423 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 17:43:43,424 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 17:43:51,622 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,user,acnumber,ernumber,scope,examination,examinationName,username FROM records WHERE ( examination = ? ) 
+2019-03-20 17:43:51,623 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 20(Integer)
+2019-03-20 17:43:51,625 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-20 17:43:54,669 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status,type FROM examination 
+2019-03-20 17:43:54,670 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 17:43:54,674 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 17:43:59,224 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,type,token FROM question WHERE ( examination = ? ) 
+2019-03-20 17:43:59,226 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 20(Integer)
+2019-03-20 17:43:59,231 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 17:43:59,236 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 17:43:59,237 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2019-03-20 17:43:59,239 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-20 17:43:59,241 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 17:43:59,242 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 17:43:59,246 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-20 17:44:09,909 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,type,token FROM question WHERE ( examination = ? ) 
+2019-03-20 17:44:09,910 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 20(Integer)
+2019-03-20 17:44:09,912 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 17:44:09,915 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 17:44:09,916 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2019-03-20 17:44:09,920 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-20 17:44:09,922 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 17:44:09,922 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 17:44:09,930 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-20 17:44:31,874 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,type,token FROM question WHERE ( examination = ? ) 
+2019-03-20 17:44:31,875 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 20(Integer)
+2019-03-20 17:44:31,877 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 17:44:31,879 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 17:44:31,880 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2019-03-20 17:44:31,881 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-20 17:44:31,883 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 17:44:31,884 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 17:44:31,886 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-20 17:45:00,502 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,type,token FROM question WHERE ( examination = ? ) 
+2019-03-20 17:45:00,503 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 20(Integer)
+2019-03-20 17:45:00,505 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 17:45:00,507 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 17:45:00,507 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2019-03-20 17:45:00,509 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-20 17:45:00,511 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 17:45:00,512 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 17:45:00,513 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-20 18:46:05,929 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,type,token FROM question WHERE ( examination = ? ) 
+2019-03-20 18:46:05,931 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 20(Integer)
+2019-03-20 18:46:05,937 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 18:46:05,939 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 18:46:05,940 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2019-03-20 18:46:05,942 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-20 18:46:05,944 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 18:46:05,945 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 18:46:05,951 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-20 18:46:10,687 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,type,token FROM question WHERE ( examination = ? ) 
+2019-03-20 18:46:10,688 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 20(Integer)
+2019-03-20 18:46:10,691 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 18:46:10,694 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 18:46:10,696 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2019-03-20 18:46:10,701 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-20 18:46:10,708 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 18:46:10,710 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 18:46:10,715 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-20 18:47:42,193 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,type,token FROM question WHERE ( examination = ? ) 
+2019-03-20 18:47:42,194 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 20(Integer)
+2019-03-20 18:47:42,196 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 18:47:42,198 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 18:47:42,199 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2019-03-20 18:47:42,205 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-20 18:47:42,210 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 18:47:42,211 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 18:47:42,213 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-20 18:48:07,894 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,type,token FROM question WHERE ( examination = ? ) 
+2019-03-20 18:48:07,912 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 20(Integer)
+2019-03-20 18:48:07,916 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 18:48:07,923 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 18:48:07,924 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2019-03-20 18:48:07,935 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-20 18:48:07,942 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 18:48:07,948 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 18:48:07,956 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-20 19:00:43,117 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status,type FROM examination 
+2019-03-20 19:00:43,118 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 19:00:43,119 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 19:00:44,030 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,user,acnumber,ernumber,scope,examination,examinationName,username FROM records 
+2019-03-20 19:00:44,031 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 19:00:44,033 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 19:00:45,074 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user 
+2019-03-20 19:00:45,075 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 19:00:45,076 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-20 19:00:45,668 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status,type FROM examination 
+2019-03-20 19:00:45,669 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 19:00:45,672 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 19:00:47,122 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,type,token FROM question WHERE ( examination = ? ) 
+2019-03-20 19:00:47,123 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 19:00:47,124 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 19:00:47,126 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 19:00:47,128 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 19:00:47,129 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 19:03:34,484 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,type,token FROM question WHERE ( examination = ? ) 
+2019-03-20 19:03:34,485 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 19:03:34,487 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 19:03:34,489 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 19:03:34,496 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 19:03:34,498 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 19:03:39,045 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,type,token FROM question WHERE ( examination = ? ) 
+2019-03-20 19:03:39,046 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 19:03:39,048 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 19:03:39,050 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 19:03:39,051 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 19:03:39,054 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 19:06:37,429 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,user,acnumber,ernumber,scope,examination,examinationName,username FROM records 
+2019-03-20 19:06:37,430 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 19:06:37,431 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 19:06:39,189 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status,type FROM examination 
+2019-03-20 19:06:39,190 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 19:06:39,193 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 19:07:14,794 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,type,token FROM question WHERE ( examination = ? ) 
+2019-03-20 19:07:14,795 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 19:07:14,799 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 19:07:14,803 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 19:07:14,806 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 19:07:14,807 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 19:07:20,525 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,type,token FROM question WHERE ( examination = ? ) 
+2019-03-20 19:07:20,526 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 19:07:20,534 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 19:07:20,541 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 19:07:20,542 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 19:07:20,543 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 19:07:25,920 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,type,token FROM question WHERE ( examination = ? ) 
+2019-03-20 19:07:25,920 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 19:07:25,922 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 19:07:25,924 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 19:07:25,924 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 19:07:25,926 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 19:07:59,488 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,type,token FROM question WHERE ( examination = ? ) 
+2019-03-20 19:07:59,489 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 19:07:59,490 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 19:07:59,492 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 19:07:59,493 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 19:07:59,494 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 19:09:10,602 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,type,token FROM question WHERE ( examination = ? ) 
+2019-03-20 19:09:10,603 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 19:09:10,608 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 19:09:10,622 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 19:09:10,628 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 19:09:10,636 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 19:09:20,158 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,type,token FROM question WHERE ( examination = ? ) 
+2019-03-20 19:09:20,158 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 19:09:20,163 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 19:09:20,166 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 19:09:20,168 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 19:09:20,169 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 19:09:25,699 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status,type FROM examination 
+2019-03-20 19:09:25,700 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 19:09:25,702 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 19:09:27,386 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,type,token FROM question WHERE ( examination = ? ) 
+2019-03-20 19:09:27,386 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 19:09:27,387 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 19:09:27,390 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 19:09:27,390 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 19:09:27,392 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 19:10:46,212 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status,type FROM examination 
+2019-03-20 19:10:46,213 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 19:10:46,214 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-20 19:10:47,474 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,type,token FROM question WHERE ( examination = ? ) 
+2019-03-20 19:10:47,475 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 19:10:47,477 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 19:10:47,478 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 19:10:47,479 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 19:10:47,482 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 19:10:51,424 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,type,token FROM question WHERE ( examination = ? ) 
+2019-03-20 19:10:51,425 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 19:10:51,427 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 19:10:51,429 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 19:10:51,430 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 19:10:51,431 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-03-20 20:13:30,544 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 23906 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 20:13:30,582 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 20:13:30,582 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 20:13:35,845 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 20:16:32,581 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 24140 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 20:16:32,584 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 20:16:32,584 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 20:16:35,210 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 20:17:58,143 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 24289 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 20:17:58,154 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 20:17:58,155 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 20:18:01,028 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 20:23:35,866 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 24668 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 20:23:35,874 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 20:23:35,875 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 20:23:38,877 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 20:25:05,164 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 24849 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 20:25:05,168 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 20:25:05,169 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 20:25:08,015 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 20:28:17,517 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 25077 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 20:28:17,521 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 20:28:17,522 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 20:28:20,220 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 20:28:23,997 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 7.665 seconds (JVM running for 8.916)
+2019-03-20 20:29:29,778 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 25246 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 20:29:29,782 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 20:29:29,782 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 20:29:32,703 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 20:30:48,839 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 25386 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 20:30:48,843 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 20:30:48,870 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 20:30:51,880 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 20:40:36,087 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 25598 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 20:40:36,093 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 20:40:36,094 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 20:40:38,775 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 20:40:40,970 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.237 seconds (JVM running for 7.38)
+2019-03-20 20:42:09,013 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 25770 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 20:42:09,019 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 20:42:09,020 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 20:42:12,419 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 20:42:14,441 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.446 seconds (JVM running for 8.114)
+2019-03-20 20:44:04,420 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 25926 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 20:44:04,424 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 20:44:04,425 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 20:44:07,597 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 20:44:09,613 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.071 seconds (JVM running for 7.229)
+2019-03-20 20:45:05,481 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 26076 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 20:45:05,485 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 20:45:05,485 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 20:45:07,940 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 20:45:10,416 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.156 seconds (JVM running for 7.578)
+2019-03-20 20:47:59,640 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 26329 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 20:47:59,648 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 20:47:59,653 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 20:48:02,556 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 20:48:05,153 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.859 seconds (JVM running for 8.106)
+2019-03-20 20:49:03,788 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 26476 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 20:49:03,831 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 20:49:03,835 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 20:49:06,822 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 20:49:08,860 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.492 seconds (JVM running for 7.986)
+2019-03-20 20:49:47,261 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 26628 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 20:49:47,265 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 20:49:47,266 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 20:49:51,065 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 20:49:53,190 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 7.267 seconds (JVM running for 8.604)
+2019-03-20 20:50:09,772 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 26762 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 20:50:09,777 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 20:50:09,778 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 20:50:12,603 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 20:50:14,508 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 5.946 seconds (JVM running for 7.217)
+2019-03-20 20:51:28,562 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 26923 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 20:51:28,581 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 20:51:28,586 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 20:51:30,857 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 20:51:32,987 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 5.72 seconds (JVM running for 7.139)
+2019-03-20 21:08:31,201 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 27667 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 21:08:31,314 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 21:08:31,315 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 21:08:33,974 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 21:08:36,212 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.313 seconds (JVM running for 7.722)
+2019-03-20 21:09:33,986 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT fn.id, fn.`name`, fn.parse, fv.id AS value_id, fv.tag, fv.field_name, fv.`value`, fv.parse AS value_parse, fv.properties FROM sys_field_name fn LEFT JOIN sys_field_value fv ON fv.field_name = fn.id 
+2019-03-20 21:09:34,008 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-20 21:09:34,043 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 12
+2019-03-20 21:15:17,788 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 28047 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-20 21:15:17,803 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-20 21:15:17,803 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-20 21:15:20,805 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-20 21:15:22,677 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 5.893 seconds (JVM running for 6.911)
+2019-03-20 21:20:19,189 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status,type FROM examination WHERE id = ? 
+2019-03-20 21:20:19,214 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 21:20:19,304 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 21:20:19,311 DEBUG (ExaminationController.java:127)- 法学
+2019-03-20 21:20:19,368 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score,type,typeparse,token FROM question WHERE ( examination = ? ) 
+2019-03-20 21:20:19,369 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-20 21:20:19,377 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-20 21:20:19,380 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question,score FROM items WHERE ( question = ? ) 
+2019-03-20 21:20:19,382 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-20 21:20:19,425 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2

@@ -1,0 +1,86 @@
+2019-03-13 09:44:26,849 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 4589 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-13 09:44:26,868 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-13 09:44:26,868 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-13 09:44:35,291 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-13 09:44:40,506 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 18.287 seconds (JVM running for 21.123)
+2019-03-13 19:49:13,379 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 16161 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-13 19:49:13,406 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-13 19:49:13,407 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-13 19:49:17,406 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-13 19:50:53,532 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 16312 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-13 19:50:53,536 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-13 19:50:53,537 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-13 19:50:56,307 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-13 19:50:57,497 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 16349 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-13 19:50:57,501 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-13 19:50:57,501 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-13 19:51:00,679 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-13 21:02:18,996 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 16896 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-13 21:02:19,000 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-13 21:02:19,001 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-13 21:02:22,793 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-13 21:07:35,157 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 17260 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-13 21:07:35,160 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-13 21:07:35,160 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-13 21:07:37,244 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-13 21:07:39,085 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 4.701 seconds (JVM running for 11.167)
+2019-03-13 21:24:51,103 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 18023 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-13 21:24:51,106 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-13 21:24:51,107 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-13 21:24:54,696 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-13 21:24:56,614 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.745 seconds (JVM running for 8.115)
+2019-03-13 21:26:57,210 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 18215 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-13 21:26:57,219 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-13 21:26:57,226 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-13 21:27:00,403 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-13 21:27:02,380 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.533 seconds (JVM running for 7.691)
+2019-03-13 21:30:11,243 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 18593 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-13 21:30:11,247 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-13 21:30:11,248 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-13 21:30:13,641 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-13 21:30:15,928 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 5.657 seconds (JVM running for 16.948)
+2019-03-13 21:30:36,260 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 18704 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-13 21:30:36,264 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-13 21:30:36,264 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-13 21:30:39,402 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-13 21:30:41,027 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.008 seconds (JVM running for 6.956)
+2019-03-13 21:35:15,251 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 19049 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-13 21:35:15,254 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-13 21:35:15,255 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-13 21:35:17,133 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-13 21:35:18,843 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 4.51 seconds (JVM running for 10.51)
+2019-03-13 21:39:06,824 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 19310 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-13 21:39:06,829 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-13 21:39:06,830 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-13 21:39:09,384 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-13 21:39:10,757 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 4.864 seconds (JVM running for 5.884)
+2019-03-13 21:41:34,356 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 19526 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-13 21:41:34,360 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-13 21:41:34,364 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-13 21:41:36,661 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-13 21:41:38,660 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 5.326 seconds (JVM running for 11.737)
+2019-03-13 22:03:15,244 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 20767 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-13 22:03:15,248 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-13 22:03:15,249 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-13 22:03:17,367 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-13 22:03:18,899 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 9.67 seconds (JVM running for 15.786)
+2019-03-13 22:15:24,206 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 21572 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-13 22:15:24,212 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-13 22:15:24,214 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-13 22:15:27,721 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-13 22:15:29,704 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.749 seconds (JVM running for 7.914)
+2019-03-13 22:16:11,477 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 21757 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-13 22:16:11,490 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-13 22:16:11,492 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-13 22:16:15,713 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-13 22:16:17,816 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 8.266 seconds (JVM running for 9.314)
+2019-03-13 22:20:31,032 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 22066 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-13 22:20:31,040 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-13 22:20:31,041 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-13 22:20:35,290 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-13 22:20:37,490 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 7.828 seconds (JVM running for 9.563)
+2019-03-13 22:21:25,128 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 22216 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-13 22:21:25,130 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-13 22:21:25,131 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-13 22:21:27,196 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-13 22:21:28,768 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 4.598 seconds (JVM running for 10.568)

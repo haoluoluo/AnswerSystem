@@ -1,0 +1,2108 @@
+[
+    {
+        "child": [
+            {
+                "child": [
+                    {
+                        "json": "{\"code\":\"TMKT_VAL\",\"max\":\"200000\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "20亿以下"
+                    },
+                    {
+                        "json": "{\"code\":\"TMKT_VAL\",\"max\":\"500000\",\"min\":\"200000\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "20亿~50亿"
+                    },
+                    {
+                        "json": "{\"code\":\"TMKT_VAL\",\"max\":\"1000000\",\"min\":\"500000\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "50亿~100亿"
+                    },
+                    {
+                        "json": "{\"code\":\"TMKT_VAL\",\"max\":\"5000000\",\"min\":\"1000000\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "100亿~500亿"
+                    },
+                    {
+                        "json": "{\"code\":\"TMKT_VAL\",\"min\":\"5000000\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "500亿以上"
+                    }
+                ],
+                "code": "TMKT_VAL",
+                "level": 2,
+                "name": "总市值(元)",
+                "pCode": "index"
+            },
+            {
+                "child": [
+                    {
+                        "json": "{\"code\":\"TTL_OPER_INC\",\"max\":\"5000\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "5000万以下"
+                    },
+                    {
+                        "json": "{\"code\":\"TTL_OPER_INC\",\"max\":\"10000\",\"min\":\"5000\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "5000万~1亿"
+                    },
+                    {
+                        "json": "{\"code\":\"TTL_OPER_INC\",\"max\":\"100000\",\"min\":\"10000\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "1亿~10亿"
+                    },
+                    {
+                        "json": "{\"code\":\"TTL_OPER_INC\",\"max\":\"500000\",\"min\":\"100000\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "10亿~50亿"
+                    },
+                    {
+                        "json": "{\"code\":\"TTL_OPER_INC\",\"min\":\"500000\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "50亿以上"
+                    }
+                ],
+                "code": "TTL_OPER_INC",
+                "level": 2,
+                "name": "营业总收入(元)",
+                "pCode": "index"
+            },
+            {
+                "child": [
+                    {
+                        "json": "{\"code\":\"NET_PROF_PCO\",\"max\":\"10000\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "1亿以下"
+                    },
+                    {
+                        "json": "{\"code\":\"NET_PROF_PCO\",\"max\":\"50000\",\"min\":\"10000\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "1亿~5亿"
+                    },
+                    {
+                        "json": "{\"code\":\"NET_PROF_PCO\",\"max\":\"100000\",\"min\":\"50000\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "5亿~10亿"
+                    },
+                    {
+                        "json": "{\"code\":\"NET_PROF_PCO\",\"max\":\"500000\",\"min\":\"100000\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "10亿~50亿"
+                    },
+                    {
+                        "json": "{\"code\":\"NET_PROF_PCO\",\"min\":\"500000\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "50亿以上"
+                    }
+                ],
+                "code": "NET_PROF_PCO",
+                "level": 2,
+                "name": "归母净利润(元)",
+                "pCode": "index"
+            },
+            {
+                "child": [
+                    {
+                        "json": "{\"code\":\"EPS_BAS\",\"max\":\"0.3\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "0.3以下"
+                    },
+                    {
+                        "json": "{\"code\":\"EPS_BAS\",\"max\":\"0.5\",\"min\":\"0.3\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "0.3~0.5"
+                    },
+                    {
+                        "json": "{\"code\":\"EPS_BAS\",\"max\":\"1\",\"min\":\"0.5\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "0.5~1"
+                    },
+                    {
+                        "json": "{\"code\":\"EPS_BAS\",\"max\":\"1.5\",\"min\":\"1\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "1~1.5"
+                    },
+                    {
+                        "json": "{\"code\":\"EPS_BAS\",\"min\":\"1.5\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "1.5以上"
+                    }
+                ],
+                "code": "EPS_BAS",
+                "level": 2,
+                "name": "每股收益(元)",
+                "pCode": "index"
+            },
+            {
+                "child": [
+                    {
+                        "json": "{\"code\":\"BVPS\",\"max\":\"0\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "0以下"
+                    },
+                    {
+                        "json": "{\"code\":\"BVPS\",\"max\":\"1\",\"min\":\"0\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "0~1"
+                    },
+                    {
+                        "json": "{\"code\":\"BVPS\",\"max\":\"3\",\"min\":\"1\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "1~3"
+                    },
+                    {
+                        "json": "{\"code\":\"BVPS\",\"max\":\"5\",\"min\":\"3\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "3~5"
+                    },
+                    {
+                        "json": "{\"code\":\"BVPS\",\"min\":\"5\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "5以上"
+                    }
+                ],
+                "code": "BVPS",
+                "level": 2,
+                "name": "每股净资产(元)",
+                "pCode": "index"
+            },
+            {
+                "child": [
+                    {
+                        "json": "{\"code\":\"ROE\",\"max\":\"0.05\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "5%以下"
+                    },
+                    {
+                        "json": "{\"code\":\"ROE\",\"max\":\"0.15\",\"min\":\"0.05\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "5%~15%"
+                    },
+                    {
+                        "json": "{\"code\":\"ROE\",\"max\":\"0.2\",\"min\":\"0.15\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "15%~20%"
+                    },
+                    {
+                        "json": "{\"code\":\"ROE\",\"max\":\"0.3\",\"min\":\"0.2\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "20%~30%"
+                    },
+                    {
+                        "json": "{\"code\":\"ROE\",\"min\":\"0.3\",\"tab\":\"index\"}",
+                        "level": 3,
+                        "name": "30%以上"
+                    }
+                ],
+                "code": "ROE",
+                "level": 2,
+                "name": "净资产收益率(%)",
+                "pCode": "index"
+            }
+        ],
+        "code": "index",
+        "level": 1,
+        "name": "常用指标"
+    },
+    {
+        "child": [
+            {
+                "child": [
+                    {
+                        "code": "100924",
+                        "json": "{\"code\":\"100924\",\"menu\":\"market\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "全部A股"
+                    },
+                    {
+                        "code": "100925",
+                        "json": "{\"code\":\"100925\",\"menu\":\"market\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "上证A股"
+                    },
+                    {
+                        "code": "100926",
+                        "json": "{\"code\":\"100926\",\"menu\":\"market\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "深圳A股"
+                    },
+                    {
+                        "code": "100928",
+                        "json": "{\"code\":\"100928\",\"menu\":\"market\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "深圳中小板"
+                    },
+                    {
+                        "code": "100929",
+                        "json": "{\"code\":\"100929\",\"menu\":\"market\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "深圳创业板"
+                    }
+                ],
+                "code": "market",
+                "level": 2,
+                "name": "市场板块",
+                "pCode": "range"
+            },
+            {
+                "child": [
+                    {
+                        "child": [
+                            {
+                                "json": "{\"code\":\"121428\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "制造业"
+                            },
+                            {
+                                "json": "{\"code\":\"121434\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "信息传输、软件和信息技术服务业"
+                            },
+                            {
+                                "json": "{\"code\":\"121443\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "文化、体育和娱乐业"
+                            },
+                            {
+                                "json": "{\"code\":\"121442\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "卫生和社会工作"
+                            },
+                            {
+                                "json": "{\"code\":\"121432\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "交通运输、仓储和邮政业"
+                            },
+                            {
+                                "json": "{\"code\":\"121433\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "住宿和餐饮业"
+                            },
+                            {
+                                "json": "{\"code\":\"121444\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "综合"
+                            },
+                            {
+                                "json": "{\"code\":\"121427\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "采矿业"
+                            },
+                            {
+                                "json": "{\"code\":\"121437\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "租赁和商务服务业"
+                            },
+                            {
+                                "json": "{\"code\":\"121426\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "农、林、牧、渔业"
+                            },
+                            {
+                                "json": "{\"code\":\"121429\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "电力、热力、燃气及水生产和供应业"
+                            },
+                            {
+                                "json": "{\"code\":\"121438\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "科学研究和技术服务业"
+                            },
+                            {
+                                "json": "{\"code\":\"121440\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "居民服务、修理和其他服务业"
+                            },
+                            {
+                                "json": "{\"code\":\"121430\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "建筑业"
+                            },
+                            {
+                                "json": "{\"code\":\"121441\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "教育"
+                            },
+                            {
+                                "json": "{\"code\":\"121431\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "批发和零售业"
+                            },
+                            {
+                                "json": "{\"code\":\"121435\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "金融业"
+                            },
+                            {
+                                "json": "{\"code\":\"121436\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "房地产业"
+                            },
+                            {
+                                "json": "{\"code\":\"121439\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "水利、环境和公共设施管理业"
+                            }
+                        ],
+                        "code": "1",
+                        "level": 3,
+                        "name": "证监会一级行业",
+                        "pCode": "industry"
+                    },
+                    {
+                        "child": [
+                            {
+                                "json": "{\"code\":\"121483\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "计算机、通信和其他电子设备制造业"
+                            },
+                            {
+                                "json": "{\"code\":\"121502\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "装卸搬运和运输代理业"
+                            },
+                            {
+                                "json": "{\"code\":\"121500\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "航空运输业"
+                            },
+                            {
+                                "json": "{\"code\":\"121480\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "汽车制造业"
+                            },
+                            {
+                                "json": "{\"code\":\"121469\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "石油加工、炼焦和核燃料加工业"
+                            },
+                            {
+                                "json": "{\"code\":\"121459\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "酒、饮料和精制茶制造业"
+                            },
+                            {
+                                "json": "{\"code\":\"121450\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "煤炭开采和洗选业"
+                            },
+                            {
+                                "json": "{\"code\":\"121447\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "畜牧业"
+                            },
+                            {
+                                "json": "{\"code\":\"121493\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "建筑安装业"
+                            },
+                            {
+                                "json": "{\"code\":\"121503\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "仓储业"
+                            },
+                            {
+                                "json": "{\"code\":\"121452\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "黑色金属矿采选业"
+                            },
+                            {
+                                "json": "{\"code\":\"121531\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "文化艺术业"
+                            },
+                            {
+                                "json": "{\"code\":\"121477\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "金属制品业"
+                            },
+                            {
+                                "json": "{\"code\":\"121509\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "软件和信息技术服务业"
+                            },
+                            {
+                                "json": "{\"code\":\"121482\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "电气机械和器材制造业"
+                            },
+                            {
+                                "json": "{\"code\":\"121496\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "零售业"
+                            },
+                            {
+                                "json": "{\"code\":\"121481\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "铁路、船舶、航空航天和其他运输设备制造业"
+                            },
+                            {
+                                "json": "{\"code\":\"121479\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "专用设备制造业"
+                            },
+                            {
+                                "json": "{\"code\":\"121476\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "有色金属冶炼和压延加工业"
+                            },
+                            {
+                                "json": "{\"code\":\"121492\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "土木工程建筑业"
+                            },
+                            {
+                                "json": "{\"code\":\"121445\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "农业"
+                            },
+                            {
+                                "json": "{\"code\":\"121506\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "餐饮业"
+                            },
+                            {
+                                "json": "{\"code\":\"121455\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "开采辅助活动"
+                            },
+                            {
+                                "json": "{\"code\":\"121508\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "互联网和相关服务"
+                            },
+                            {
+                                "json": "{\"code\":\"121521\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "生态保护和环境治理业"
+                            },
+                            {
+                                "json": "{\"code\":\"121446\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "林业"
+                            },
+                            {
+                                "json": "{\"code\":\"121449\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "农、林、牧、渔服务业"
+                            },
+                            {
+                                "json": "{\"code\":\"121486\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "废弃资源综合利用业"
+                            },
+                            {
+                                "json": "{\"code\":\"121526\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "教育"
+                            },
+                            {
+                                "json": "{\"code\":\"121504\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "邮政业"
+                            },
+                            {
+                                "json": "{\"code\":\"121524\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "机动车、电子产品和日用产品修理业"
+                            },
+                            {
+                                "json": "{\"code\":\"121458\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "食品制造业"
+                            },
+                            {
+                                "json": "{\"code\":\"121453\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "有色金属矿采选业"
+                            },
+                            {
+                                "json": "{\"code\":\"121462\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "纺织服装、服饰业"
+                            },
+                            {
+                                "json": "{\"code\":\"121516\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "商务服务业"
+                            },
+                            {
+                                "json": "{\"code\":\"121529\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "新闻和出版业"
+                            },
+                            {
+                                "json": "{\"code\":\"121494\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "建筑装饰和其他建筑业"
+                            },
+                            {
+                                "json": "{\"code\":\"121470\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "化学原料和化学制品制造业"
+                            },
+                            {
+                                "json": "{\"code\":\"121495\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "批发业"
+                            },
+                            {
+                                "json": "{\"code\":\"121478\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "通用设备制造业"
+                            },
+                            {
+                                "json": "{\"code\":\"121466\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "造纸和纸制品业"
+                            },
+                            {
+                                "json": "{\"code\":\"121474\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "非金属矿物制品业"
+                            },
+                            {
+                                "json": "{\"code\":\"121513\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "其他金融业"
+                            },
+                            {
+                                "json": "{\"code\":\"121518\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "专业技术服务业"
+                            },
+                            {
+                                "json": "{\"code\":\"121530\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "广播、电视、电影和影视录音制作业"
+                            },
+                            {
+                                "json": "{\"code\":\"121489\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "燃气生产和供应业"
+                            },
+                            {
+                                "json": "{\"code\":\"121448\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "渔业"
+                            },
+                            {
+                                "json": "{\"code\":\"121514\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "房地产业"
+                            },
+                            {
+                                "json": "{\"code\":\"121522\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "公共设施管理业"
+                            },
+                            {
+                                "json": "{\"code\":\"121465\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "家具制造业"
+                            },
+                            {
+                                "json": "{\"code\":\"121461\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "纺织业"
+                            },
+                            {
+                                "json": "{\"code\":\"121490\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "水的生产和供应业"
+                            },
+                            {
+                                "json": "{\"code\":\"121515\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "租赁业"
+                            },
+                            {
+                                "json": "{\"code\":\"121491\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "房屋建筑业"
+                            },
+                            {
+                                "json": "{\"code\":\"121519\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "科技推广和应用服务业"
+                            },
+                            {
+                                "json": "{\"code\":\"121473\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "橡胶和塑料制品业"
+                            },
+                            {
+                                "json": "{\"code\":\"121488\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "电力、热力生产和供应业"
+                            },
+                            {
+                                "json": "{\"code\":\"121534\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "综合"
+                            },
+                            {
+                                "json": "{\"code\":\"121468\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "文教、工美、体育和娱乐用品制造业"
+                            },
+                            {
+                                "json": "{\"code\":\"121484\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "仪器仪表制造业"
+                            },
+                            {
+                                "json": "{\"code\":\"121451\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "石油和天然气开采业"
+                            },
+                            {
+                                "json": "{\"code\":\"121517\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "研究和试验发展"
+                            },
+                            {
+                                "json": "{\"code\":\"121532\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "体育"
+                            },
+                            {
+                                "json": "{\"code\":\"121454\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "非金属矿采选业"
+                            },
+                            {
+                                "json": "{\"code\":\"121505\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "住宿业"
+                            },
+                            {
+                                "json": "{\"code\":\"121457\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "农副食品加工业"
+                            },
+                            {
+                                "json": "{\"code\":\"121472\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "化学纤维制造业"
+                            },
+                            {
+                                "json": "{\"code\":\"121499\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "水上运输业"
+                            },
+                            {
+                                "json": "{\"code\":\"121463\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "皮革、毛皮、羽毛及其制品和制鞋业"
+                            },
+                            {
+                                "json": "{\"code\":\"121520\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "水利管理业"
+                            },
+                            {
+                                "json": "{\"code\":\"121471\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "医药制造业"
+                            },
+                            {
+                                "json": "{\"code\":\"121512\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "保险业"
+                            },
+                            {
+                                "json": "{\"code\":\"121511\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "资本市场服务"
+                            },
+                            {
+                                "json": "{\"code\":\"121510\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "货币金融服务"
+                            },
+                            {
+                                "json": "{\"code\":\"121475\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "黑色金属冶炼和压延加工业"
+                            },
+                            {
+                                "json": "{\"code\":\"121507\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "电信、广播电视和卫星传输服务"
+                            },
+                            {
+                                "json": "{\"code\":\"121485\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "其他制造业"
+                            },
+                            {
+                                "json": "{\"code\":\"121498\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "道路运输业"
+                            },
+                            {
+                                "json": "{\"code\":\"121497\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "铁路运输业"
+                            },
+                            {
+                                "json": "{\"code\":\"121527\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "卫生"
+                            },
+                            {
+                                "json": "{\"code\":\"121467\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "印刷和记录媒介复制业"
+                            },
+                            {
+                                "json": "{\"code\":\"121464\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "木材加工和木、竹、藤、棕、草制品业"
+                            }
+                        ],
+                        "code": "2",
+                        "level": 3,
+                        "name": "证监会二级行业",
+                        "pCode": "industry"
+                    },
+                    {
+                        "child": [
+                            {
+                                "json": "{\"code\":\"100903\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "化工"
+                            },
+                            {
+                                "json": "{\"code\":\"100901\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "农林牧渔"
+                            },
+                            {
+                                "json": "{\"code\":\"100912\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "食品饮料"
+                            },
+                            {
+                                "json": "{\"code\":\"107383\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "银行"
+                            },
+                            {
+                                "json": "{\"code\":\"100916\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "公用事业"
+                            },
+                            {
+                                "json": "{\"code\":\"100910\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "信息设备"
+                            },
+                            {
+                                "json": "{\"code\":\"100909\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "交运设备"
+                            },
+                            {
+                                "json": "{\"code\":\"100919\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "金融服务"
+                            },
+                            {
+                                "json": "{\"code\":\"100905\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "有色金属"
+                            },
+                            {
+                                "json": "{\"code\":\"100904\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "黑色金属"
+                            },
+                            {
+                                "json": "{\"code\":\"100920\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "商业贸易"
+                            },
+                            {
+                                "json": "{\"code\":\"100911\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "家用电器"
+                            },
+                            {
+                                "json": "{\"code\":\"100906\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "建筑建材"
+                            },
+                            {
+                                "json": "{\"code\":\"107639\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "国防军工"
+                            },
+                            {
+                                "json": "{\"code\":\"100918\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "房地产"
+                            },
+                            {
+                                "json": "{\"code\":\"107393\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "建筑材料"
+                            },
+                            {
+                                "json": "{\"code\":\"100913\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "纺织服装"
+                            },
+                            {
+                                "json": "{\"code\":\"107343\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "汽车"
+                            },
+                            {
+                                "json": "{\"code\":\"107402\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "建筑装饰"
+                            },
+                            {
+                                "json": "{\"code\":\"107654\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "传媒"
+                            },
+                            {
+                                "json": "{\"code\":\"107420\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "电气设备"
+                            },
+                            {
+                                "json": "{\"code\":\"100923\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "综合"
+                            },
+                            {
+                                "json": "{\"code\":\"107842\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "通信"
+                            },
+                            {
+                                "json": "{\"code\":\"107615\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "机械设备"
+                            },
+                            {
+                                "json": "{\"code\":\"100908\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "电子元器件"
+                            },
+                            {
+                                "json": "{\"code\":\"100915\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "医药生物"
+                            },
+                            {
+                                "json": "{\"code\":\"100921\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "餐饮旅游"
+                            },
+                            {
+                                "json": "{\"code\":\"100902\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "采掘"
+                            },
+                            {
+                                "json": "{\"code\":\"100922\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "信息服务"
+                            },
+                            {
+                                "json": "{\"code\":\"100917\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "交通运输"
+                            },
+                            {
+                                "json": "{\"code\":\"107386\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "非银金融"
+                            },
+                            {
+                                "json": "{\"code\":\"107648\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "计算机"
+                            },
+                            {
+                                "json": "{\"code\":\"100914\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "轻工制造"
+                            },
+                            {
+                                "json": "{\"code\":\"100907\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "机械设备"
+                            }
+                        ],
+                        "code": "3",
+                        "level": 3,
+                        "name": "申万一级分类",
+                        "pCode": "industry"
+                    },
+                    {
+                        "child": [
+                            {
+                                "json": "{\"code\":\"102447\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "石油开采"
+                            },
+                            {
+                                "json": "{\"code\":\"102587\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "服装"
+                            },
+                            {
+                                "json": "{\"code\":\"107599\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "电气自动化设备"
+                            },
+                            {
+                                "json": "{\"code\":\"102435\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "农业综合"
+                            },
+                            {
+                                "json": "{\"code\":\"102563\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "白色家电"
+                            },
+                            {
+                                "json": "{\"code\":\"107396\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "玻璃制造"
+                            },
+                            {
+                                "json": "{\"code\":\"107348\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "汽车零部件"
+                            },
+                            {
+                                "json": "{\"code\":\"102632\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "物流"
+                            },
+                            {
+                                "json": "{\"code\":\"102617\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "环保"
+                            },
+                            {
+                                "json": "{\"code\":\"102510\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "金属制品"
+                            },
+                            {
+                                "json": "{\"code\":\"102431\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "渔业"
+                            },
+                            {
+                                "json": "{\"code\":\"102432\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "林业"
+                            },
+                            {
+                                "json": "{\"code\":\"102661\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "旅游综合"
+                            },
+                            {
+                                "json": "{\"code\":\"102642\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "园区开发"
+                            },
+                            {
+                                "json": "{\"code\":\"102606\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "医疗服务"
+                            },
+                            {
+                                "json": "{\"code\":\"102662\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "餐饮"
+                            },
+                            {
+                                "json": "{\"code\":\"107616\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "通用机械"
+                            },
+                            {
+                                "json": "{\"code\":\"107633\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "仪器仪表"
+                            },
+                            {
+                                "json": "{\"code\":\"107603\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "电源设备"
+                            },
+                            {
+                                "json": "{\"code\":\"102489\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "金属新材料"
+                            },
+                            {
+                                "json": "{\"code\":\"107310\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "畜禽养殖"
+                            },
+                            {
+                                "json": "{\"code\":\"102654\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "贸易"
+                            },
+                            {
+                                "json": "{\"code\":\"102556\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "通信设备"
+                            },
+                            {
+                                "json": "{\"code\":\"102595\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "其他轻工制造"
+                            },
+                            {
+                                "json": "{\"code\":\"107340\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "电子制造"
+                            },
+                            {
+                                "json": "{\"code\":\"107314\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "采掘服务"
+                            },
+                            {
+                                "json": "{\"code\":\"102615\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "水务"
+                            },
+                            {
+                                "json": "{\"code\":\"102507\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "专用设备"
+                            },
+                            {
+                                "json": "{\"code\":\"102533\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "显示器件"
+                            },
+                            {
+                                "json": "{\"code\":\"102626\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "高速公路"
+                            },
+                            {
+                                "json": "{\"code\":\"102544\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "汽车服务"
+                            },
+                            {
+                                "json": "{\"code\":\"102614\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "电力"
+                            },
+                            {
+                                "json": "{\"code\":\"102641\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "房地产开发"
+                            },
+                            {
+                                "json": "{\"code\":\"102531\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "半导体"
+                            },
+                            {
+                                "json": "{\"code\":\"107623\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "专用设备"
+                            },
+                            {
+                                "json": "{\"code\":\"102542\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "汽车零部件"
+                            },
+                            {
+                                "json": "{\"code\":\"102534\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "其他电子器件"
+                            },
+                            {
+                                "json": "{\"code\":\"102586\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "纺织"
+                            },
+                            {
+                                "json": "{\"code\":\"102602\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "中药"
+                            },
+                            {
+                                "json": "{\"code\":\"102564\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "视听器材"
+                            },
+                            {
+                                "json": "{\"code\":\"107646\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "船舶制造"
+                            },
+                            {
+                                "json": "{\"code\":\"107325\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "工业金属"
+                            },
+                            {
+                                "json": "{\"code\":\"102630\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "航运"
+                            },
+                            {
+                                "json": "{\"code\":\"102625\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "港口"
+                            },
+                            {
+                                "json": "{\"code\":\"107843\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "通信运营"
+                            },
+                            {
+                                "json": "{\"code\":\"107640\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "航天装备"
+                            },
+                            {
+                                "json": "{\"code\":\"107378\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "商业物业经营"
+                            },
+                            {
+                                "json": "{\"code\":\"102668\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "通信运营"
+                            },
+                            {
+                                "json": "{\"code\":\"102456\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "化学制品"
+                            },
+                            {
+                                "json": "{\"code\":\"102434\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "农产品加工"
+                            },
+                            {
+                                "json": "{\"code\":\"107610\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "高低压设备"
+                            },
+                            {
+                                "json": "{\"code\":\"102681\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "综合"
+                            },
+                            {
+                                "json": "{\"code\":\"107655\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "文化传媒"
+                            },
+                            {
+                                "json": "{\"code\":\"102603\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "生物制品"
+                            },
+                            {
+                                "json": "{\"code\":\"107838\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "互联网传媒"
+                            },
+                            {
+                                "json": "{\"code\":\"102455\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "化学原料"
+                            },
+                            {
+                                "json": "{\"code\":\"107331\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "稀有金属"
+                            },
+                            {
+                                "json": "{\"code\":\"107376\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "专业零售"
+                            },
+                            {
+                                "json": "{\"code\":\"107637\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "运输设备"
+                            },
+                            {
+                                "json": "{\"code\":\"102628\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "航空运输"
+                            },
+                            {
+                                "json": "{\"code\":\"102604\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "医药商业"
+                            },
+                            {
+                                "json": "{\"code\":\"107642\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "航空装备"
+                            },
+                            {
+                                "json": "{\"code\":\"107369\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "其他轻工制造"
+                            },
+                            {
+                                "json": "{\"code\":\"102458\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "塑料"
+                            },
+                            {
+                                "json": "{\"code\":\"107354\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "食品加工制造"
+                            },
+                            {
+                                "json": "{\"code\":\"102532\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "元件"
+                            },
+                            {
+                                "json": "{\"code\":\"107403\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "房屋建设"
+                            },
+                            {
+                                "json": "{\"code\":\"102670\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "计算机应用"
+                            },
+                            {
+                                "json": "{\"code\":\"107405\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "装修装饰"
+                            },
+                            {
+                                "json": "{\"code\":\"102449\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "其他采掘"
+                            },
+                            {
+                                "json": "{\"code\":\"102488\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "有色金属冶炼"
+                            },
+                            {
+                                "json": "{\"code\":\"102573\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "食品制造"
+                            },
+                            {
+                                "json": "{\"code\":\"107597\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "电机"
+                            },
+                            {
+                                "json": "{\"code\":\"107372\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "一般零售"
+                            },
+                            {
+                                "json": "{\"code\":\"107413\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "专业工程"
+                            },
+                            {
+                                "json": "{\"code\":\"107836\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "营销传播"
+                            },
+                            {
+                                "json": "{\"code\":\"102671\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "传媒"
+                            },
+                            {
+                                "json": "{\"code\":\"102659\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "景点"
+                            },
+                            {
+                                "json": "{\"code\":\"107352\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "其他交运设备"
+                            },
+                            {
+                                "json": "{\"code\":\"102572\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "食品加工"
+                            },
+                            {
+                                "json": "{\"code\":\"102485\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "钢铁"
+                            },
+                            {
+                                "json": "{\"code\":\"107398\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "其他建材"
+                            },
+                            {
+                                "json": "{\"code\":\"102653\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "零售"
+                            },
+                            {
+                                "json": "{\"code\":\"107407\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "基础建设"
+                            },
+                            {
+                                "json": "{\"code\":\"102499\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "建筑装饰"
+                            },
+                            {
+                                "json": "{\"code\":\"107344\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "汽车整车"
+                            },
+                            {
+                                "json": "{\"code\":\"102430\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "种植业"
+                            },
+                            {
+                                "json": "{\"code\":\"102448\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "煤炭开采"
+                            },
+                            {
+                                "json": "{\"code\":\"102594\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "包装印刷"
+                            },
+                            {
+                                "json": "{\"code\":\"107418\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "园林工程"
+                            },
+                            {
+                                "json": "{\"code\":\"102459\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "橡胶"
+                            },
+                            {
+                                "json": "{\"code\":\"102669\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "网络服务"
+                            },
+                            {
+                                "json": "{\"code\":\"107329\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "黄金"
+                            },
+                            {
+                                "json": "{\"code\":\"102557\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "计算机设备"
+                            },
+                            {
+                                "json": "{\"code\":\"107649\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "计算机设备"
+                            },
+                            {
+                                "json": "{\"code\":\"102457\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "化学纤维"
+                            },
+                            {
+                                "json": "{\"code\":\"102433\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "饲料"
+                            },
+                            {
+                                "json": "{\"code\":\"102454\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "石油化工"
+                            },
+                            {
+                                "json": "{\"code\":\"102541\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "汽车整车"
+                            },
+                            {
+                                "json": "{\"code\":\"107845\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "通信设备"
+                            },
+                            {
+                                "json": "{\"code\":\"102660\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "酒店"
+                            },
+                            {
+                                "json": "{\"code\":\"102605\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "医疗器械"
+                            },
+                            {
+                                "json": "{\"code\":\"102506\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "普通机械"
+                            },
+                            {
+                                "json": "{\"code\":\"102593\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "造纸"
+                            },
+                            {
+                                "json": "{\"code\":\"107312\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "动物保健"
+                            },
+                            {
+                                "json": "{\"code\":\"107350\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "汽车服务"
+                            },
+                            {
+                                "json": "{\"code\":\"107389\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "保险"
+                            },
+                            {
+                                "json": "{\"code\":\"107394\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "水泥制造"
+                            },
+                            {
+                                "json": "{\"code\":\"102631\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "铁路运输"
+                            },
+                            {
+                                "json": "{\"code\":\"107651\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "计算机应用"
+                            },
+                            {
+                                "json": "{\"code\":\"102543\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "非汽车交运设备"
+                            },
+                            {
+                                "json": "{\"code\":\"102601\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "化学制药"
+                            },
+                            {
+                                "json": "{\"code\":\"102498\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "建筑材料"
+                            },
+                            {
+                                "json": "{\"code\":\"102509\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "电气设备"
+                            },
+                            {
+                                "json": "{\"code\":\"107384\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "银行"
+                            },
+                            {
+                                "json": "{\"code\":\"102508\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "仪器仪表"
+                            },
+                            {
+                                "json": "{\"code\":\"107387\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "证券"
+                            },
+                            {
+                                "json": "{\"code\":\"102574\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "饮料制造"
+                            },
+                            {
+                                "json": "{\"code\":\"107635\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "金属制品"
+                            },
+                            {
+                                "json": "{\"code\":\"107391\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "多元金融"
+                            },
+                            {
+                                "json": "{\"code\":\"102627\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "公交"
+                            },
+                            {
+                                "json": "{\"code\":\"102460\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "化工新材料"
+                            },
+                            {
+                                "json": "{\"code\":\"102647\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "证券"
+                            },
+                            {
+                                "json": "{\"code\":\"102616\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "燃气"
+                            },
+                            {
+                                "json": "{\"code\":\"102629\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "机场"
+                            },
+                            {
+                                "json": "{\"code\":\"107644\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "地面兵装"
+                            },
+                            {
+                                "json": "{\"code\":\"107381\",\"menu\":\"industry\",\"tab\":\"range\"}",
+                                "level": 4,
+                                "name": "其他休闲服务"
+                            }
+                        ],
+                        "code": "4",
+                        "level": 3,
+                        "name": "申万二级分类",
+                        "pCode": "industry"
+                    }
+                ],
+                "code": "industry",
+                "level": 2,
+                "name": "行业板块",
+                "pCode": "range"
+            },
+            {
+                "child": [
+                    {
+                        "json": "{\"code\":\"350000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "福建省"
+                    },
+                    {
+                        "json": "{\"code\":\"340000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "安徽省"
+                    },
+                    {
+                        "json": "{\"code\":\"210000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "辽宁省"
+                    },
+                    {
+                        "json": "{\"code\":\"430000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "湖南省"
+                    },
+                    {
+                        "json": "{\"code\":\"510000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "四川省"
+                    },
+                    {
+                        "json": "{\"code\":\"230000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "黑龙江省"
+                    },
+                    {
+                        "json": "{\"code\":\"410000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "河南省"
+                    },
+                    {
+                        "json": "{\"code\":\"120000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "天津市"
+                    },
+                    {
+                        "json": "{\"code\":\"500000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "重庆市"
+                    },
+                    {
+                        "json": "{\"code\":\"220000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "吉林省"
+                    },
+                    {
+                        "json": "{\"code\":\"360000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "江西省"
+                    },
+                    {
+                        "json": "{\"code\":\"640000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "宁夏回族自治区"
+                    },
+                    {
+                        "json": "{\"code\":\"150000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "内蒙古自治区"
+                    },
+                    {
+                        "json": "{\"code\":\"320000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "江苏省"
+                    },
+                    {
+                        "json": "{\"code\":\"540000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "西藏自治区"
+                    },
+                    {
+                        "json": "{\"code\":\"460000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "海南省"
+                    },
+                    {
+                        "json": "{\"code\":\"140000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "山西省"
+                    },
+                    {
+                        "json": "{\"code\":\"530000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "云南省"
+                    },
+                    {
+                        "json": "{\"code\":\"420000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "湖北省"
+                    },
+                    {
+                        "json": "{\"code\":\"310000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "上海市"
+                    },
+                    {
+                        "json": "{\"code\":\"450000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "广西壮族自治区"
+                    },
+                    {
+                        "json": "{\"code\":\"630000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "青海省"
+                    },
+                    {
+                        "json": "{\"code\":\"650000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "新疆维吾尔自治区"
+                    },
+                    {
+                        "json": "{\"code\":\"110000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "北京市"
+                    },
+                    {
+                        "json": "{\"code\":\"440000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "广东省"
+                    },
+                    {
+                        "json": "{\"code\":\"330000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "浙江省"
+                    },
+                    {
+                        "json": "{\"code\":\"610000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "陕西省"
+                    },
+                    {
+                        "json": "{\"code\":\"370000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "山东省"
+                    },
+                    {
+                        "json": "{\"code\":\"130000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "河北省"
+                    },
+                    {
+                        "json": "{\"code\":\"520000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "贵州省"
+                    },
+                    {
+                        "json": "{\"code\":\"620000\",\"menu\":\"region\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "甘肃省"
+                    }
+                ],
+                "code": "region",
+                "level": 2,
+                "name": "地区板块",
+                "pCode": "range"
+            },
+            {
+                "child": [
+                    {
+                        "json": "{\"code\":\"406802\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "细胞免疫治疗"
+                    },
+                    {
+                        "json": "{\"code\":\"108556\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "涉矿"
+                    },
+                    {
+                        "json": "{\"code\":\"406805\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "医疗器械"
+                    },
+                    {
+                        "json": "{\"code\":\"107459\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "安防监控"
+                    },
+                    {
+                        "json": "{\"code\":\"1215383\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "兜底增持概念"
+                    },
+                    {
+                        "json": "{\"code\":\"107432\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "概念板块龙头"
+                    },
+                    {
+                        "json": "{\"code\":\"406821\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "航母概念"
+                    },
+                    {
+                        "json": "{\"code\":\"127483\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "科研服务"
+                    },
+                    {
+                        "json": "{\"code\":\"108557\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "节能环保"
+                    },
+                    {
+                        "json": "{\"code\":\"108578\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "碳纤维"
+                    },
+                    {
+                        "json": "{\"code\":\"406799\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "禽流感"
+                    },
+                    {
+                        "json": "{\"code\":\"1399171\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "数字中国"
+                    },
+                    {
+                        "json": "{\"code\":\"406827\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "超导"
+                    },
+                    {
+                        "json": "{\"code\":\"406854\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "大健康大医疗"
+                    },
+                    {
+                        "json": "{\"code\":\"406779\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "粤港澳自贸区"
+                    },
+                    {
+                        "json": "{\"code\":\"107478\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "水务"
+                    },
+                    {
+                        "json": "{\"code\":\"107431\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "央企"
+                    },
+                    {
+                        "json": "{\"code\":\"108540\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "装饰园林"
+                    },
+                    {
+                        "json": "{\"code\":\"108545\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "出口退税"
+                    },
+                    {
+                        "json": "{\"code\":\"1344529\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "即时检验POCT"
+                    },
+                    {
+                        "json": "{\"code\":\"1344453\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "汽车尾气处理"
+                    },
+                    {
+                        "json": "{\"code\":\"1344482\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "互联网彩票"
+                    },
+                    {
+                        "json": "{\"code\":\"1344544\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "糖尿病药物"
+                    },
+                    {
+                        "json": "{\"code\":\"406794\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "埃博拉概念"
+                    },
+                    {
+                        "json": "{\"code\":\"406833\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "金融IC"
+                    },
+                    {
+                        "json": "{\"code\":\"1344552\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "青蒿素"
+                    },
+                    {
+                        "json": "{\"code\":\"127490\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "婴幼儿奶粉"
+                    },
+                    {
+                        "json": "{\"code\":\"1344459\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "碳捕捉和储存(CCS)"
+                    },
+                    {
+                        "json": "{\"code\":\"406787\",\"menu\":\"concept\",\"tab\":\"range\"}",
+                        "level": 3,
+                        "name": "江苏国资改革"
+                    }
+                ],
+                "code": "concept",
+                "level": 2,
+                "name": "概念板块",
+                "pCode": "range"
+            }
+        ],
+        "code": "range",
+        "level": 1,
+        "name": "股票范围"
+    },
+    {
+        "child": [
+            {
+                "code": "<",
+                "json": "{\"code\":\"<\",\"tab\":\"notice\"}",
+                "level": 2,
+                "name": "大股东增持股比例(%)",
+                "pCode": "notice",
+                "options":[{"name":"1%~2%","value":"{\"min\":0.01, \"max\":0.02, \"field\":\"TMKT_VAL\" }"},{"name":"2%~3%","value":"{\"min\":0.02, \"max\":0.03, \"field\":\"TMKT_VAL\" }"}]
+            },
+            {
+                "code": ">",
+                "json": "{\"code\":\">\",\"tab\":\"notice\"}",
+                "level": 2,
+                "name": "大股东减持股比例(%)",
+                "pCode": "notice"
+            }
+        ],
+        "code": "notice",
+        "level": 1,
+        "name": "公告事件"
+    },
+    {
+        "child": [
+            {
+                "child": [
+                    {
+                        "json": "{\"code\":\"TTL_OPER_INC\",\"menu\":\"profit\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "营业总收入(元)"
+                    },
+                    {
+                        "json": "{\"code\":\"OPER_PROF\",\"menu\":\"profit\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "营业利润(元)"
+                    },
+                    {
+                        "json": "{\"code\":\"TTL_PROF \",\"menu\":\"profit\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "利润总额(元)"
+                    },
+                    {
+                        "json": "{\"code\":\"NET_PROF_PCO\",\"menu\":\"profit\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "归母净利润(元)"
+                    },
+                    {
+                        "json": "{\"code\":\"NET_PROF\",\"menu\":\"profit\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "息税前利润(元)"
+                    },
+                    {
+                        "json": "{\"code\":\"INC_TAX_EXP\",\"menu\":\"profit\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "所得税(元)"
+                    },
+                    {
+                        "json": "{\"code\":\"FIN_EXP\",\"menu\":\"profit\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "财务费用(元)"
+                    },
+                    {
+                        "json": "{\"code\":\"INV_INC\",\"menu\":\"profit\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "投资收益(元)"
+                    }
+                ],
+                "level": 2,
+                "name": "利润表",
+                "pCode": "finance"
+            },
+            {
+                "child": [
+                    {
+                        "json": "{\"code\":\"TTL_CUR_AST\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "流动资产合计"
+                    },
+                    {
+                        "json": "{\"code\":\"TTL_NCUR_AST\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "非流动资产合计"
+                    },
+                    {
+                        "json": "{\"code\":\"TTL_CUR_LIAB\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "流动负债合计"
+                    },
+                    {
+                        "json": "{\"code\":\"TTL_NCUR_LIAB\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "非流动负债合计"
+                    },
+                    {
+                        "json": "{\"code\":\"TTL_LIAB\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "负债合计"
+                    },
+                    {
+                        "json": "{\"code\":\"TTL_EQY_PCO\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "归属于上市公司股东权益合计"
+                    },
+                    {
+                        "json": "{\"code\":\"SHEQY\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "所有者权益(或股东权益)合计"
+                    },
+                    {
+                        "json": "{\"code\":\"RET_PROF\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "未分配利润"
+                    },
+                    {
+                        "json": "{\"code\":\"MNY_CPTL\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "货币资金"
+                    },
+                    {
+                        "json": "{\"code\":\"FIX_AST\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "固定资产"
+                    },
+                    {
+                        "json": "{\"code\":\"LT_EQY_INV\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "长期股权投资"
+                    },
+                    {
+                        "json": "{\"code\":\"ACCT_RCV\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "应收账款(净额)/应收款项"
+                    },
+                    {
+                        "json": "{\"code\":\"INVT\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "存货"
+                    },
+                    {
+                        "json": "{\"code\":\"INTG_AST\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "无形资产"
+                    },
+                    {
+                        "json": "{\"code\":\"TTL_AST\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "资产总计"
+                    },
+                    {
+                        "json": "{\"code\":\"CPTL_RSV\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "资本公积"
+                    },
+                    {
+                        "json": "{\"code\":\"CPTL_RSV\",\"menu\":\"liabilities\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "实收资本(或股本)"
+                    }
+                ],
+                "level": 2,
+                "name": "资产负债表",
+                "pCode": "finance"
+            },
+            {
+                "child": [
+                    {
+                        "json": "{\"code\":\"NET_CF_FIN\",\"menu\":\"cash\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "筹资活动产生的现金流量净额"
+                    },
+                    {
+                        "json": "{\"code\":\"CASH_EQ_NET_INCR\",\"menu\":\"cash\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "现金及现金等价物净增加额"
+                    },
+                    {
+                        "json": "{\"code\":\"CASH_EQ_END\",\"menu\":\"cash\",\"tab\":\"finance\"}",
+                        "level": 3,
+                        "name": "期末现金及现金等价物余额"
+                    }
+                ],
+                "level": 2,
+                "name": "现金流量表",
+                "pCode": "finance"
+            }
+        ],
+        "code": "finance",
+        "level": 1,
+        "name": "财务科目"
+    }
+]

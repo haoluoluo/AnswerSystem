@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.luoluohao.answer_system.x.as.sys.dao.mapper.FieldNameMapper">
+  <resultMap id="BaseResultMap" type="com.luoluohao.answer_system.x.as.sys.dto.entity.FieldName">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="parse" jdbcType="VARCHAR" property="parse" />
+    <result column="is_deleted" jdbcType="BIT" property="isDeleted" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+  </resultMap>
+  <resultMap id="ModelMap" type="com.luoluohao.answer_system.x.as.sys.dto.model.FieldNameModel">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="parse" jdbcType="VARCHAR" property="parse" />
+    <collection property="fieldValues" column="id" javaType="ArrayList" ofType="com.luoluohao.answer_system.x.as.sys.dto.entity.FieldValue" select="com.luoluohao.answer_system.x.as.sys.dao.mapper.FieldValueMapper.selectFieldValuesByFieldNameId">
+    </collection>
+  </resultMap>
+
+  <resultMap id="ModelMap_HIGH" type="com.luoluohao.answer_system.x.as.sys.dto.model.FieldNameModel">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="parse" jdbcType="VARCHAR" property="parse" />
+    <collection property="fieldValues" ofType="com.luoluohao.answer_system.x.as.sys.dto.entity.FieldValue">
+      <id column="value_id" jdbcType="INTEGER" property="id" />
+      <result column="tag" jdbcType="VARCHAR" property="tag" />
+      <result column="field_name" jdbcType="INTEGER" property="fieldName" />
+      <result column="value" jdbcType="INTEGER" property="value" />
+      <result column="value_parse" jdbcType="VARCHAR" property="parse" />
+      <result column="properties" jdbcType="LONGVARCHAR" property="properties" />
+    </collection>
+  </resultMap>
+
+  <!-- 外联式：查询所有配置 -->
+  <select id="selectAllFieldNames" resultMap="ModelMap" parameterType="java.util.HashMap">
+  SELECT id, `name`, parse FROM sys_field_name
+  </select>
+
+  <!-- 内联式：查询所有配置 -->
+  <select id="selectAllFieldNamesHIGH" resultMap="ModelMap_HIGH">
+  SELECT
+  fn.id, fn.`name`, fn.parse,
+  fv.id AS value_id, fv.tag, fv.field_name, fv.`value`, fv.parse AS value_parse, fv.properties
+  FROM sys_field_name fn
+  LEFT JOIN sys_field_value fv ON fv.field_name = fn.id
+  </select>
+</mapper>

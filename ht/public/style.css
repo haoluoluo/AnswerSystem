@@ -1,0 +1,58 @@
+/* Reset*/
+*{padding:0;margin:0;box-sizing:border-box;}
+body{font-family: Microsoft YaHei,Segoe UI,Tahoma,Arial,Verdana,sans-serif;font-size:14px;font-weight:normal;color:#707070;line-height:1.8em;padding: 0;}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,textarea, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, input,select, button,  label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;font-family: Microsoft YaHei,Segoe UI,Tahoma,Arial,Verdana,sans-serif;outline:none;}
+a{text-decoration:none;}a:hover{text-decoration: none;}a:active,a:focus,a:link{outline:none;}
+ul,ul li{list-style:none;}
+i,em{font-style:normal;}
+h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; }
+code, kbd, pre, samp, tt { font-family: "Courier New", Courier, monospace; }
+small { font-size: 12px; }
+abbr[title], acronym[title] {border-bottom: 1px dotted;cursor: help;}
+q:before, q:after { content: ''; }
+legend { color: #000; }
+fieldset, img { border: none; }
+button, input, select, textarea {font-size: 100%; }
+table { border-collapse: collapse;border-spacing: 0; }
+.fl{float: left;} .fr{float: right;}.red{color:red}
+hr {border: none;height: 1px;}
+html { height: 100%;font-size:100px;font-family:'Microsoft YaHei','Avenir', Helvetica, Arial, sans-serif!important;}
+body, #app{ height: 100%; color: #1f2f3d}
+body{background:#FFF;min-height:680px;}
+.clear{clear: both;}
+.text-center{text-align:center!important;}
+.text-right{text-align:right!important;}
+.text-left{text-align:left!important;}
+
+::-webkit-scrollbar{ width:3px;height:3px;cursor:pointer;}
+::-webkit-scrollbar-track-piece{background-color:#F5F5F5;border-left:1px solid #FFF;}
+::-webkit-scrollbar-thumb{ background:#ccc;width:0px;height:3px;}
+::-webkit-scrollbar-thumb:hover{ background:#409EFF;}
+
+/* 通用 */
+.h1-tit{padding:10px 0 15px 0;font-size:18px;font-weight:normal;color:#1f2f3d;}
+.h2-tit{padding: 20px 0 10px 0;font-size: 14px;color: #666}
+
+.el-menu-item-group__title{display:none!important}
+/*分页*/
+.el-pagination{text-align:center}
+/*header*/
+.el-header{height:auto!important;line-height:55px!important;position:relative; padding:0!important;}
+/*main background:#E8ECF0;*/
+.el-main{background:#F8F8F8;padding:.2rem!important;}
+.el-main article{padding:.2rem;display:block; min-height:calc(100% - 0.01rem);background:#FFF;}
+/*footer*/
+.el-footer{height:40px!important;line-height:40px!important;}
+
+/*表格*/
+.el-table th{text-align:center!important;color: #666;}
+.el-table tr td{border-color:#EEE!important}
+.el-table th{background-color:#EEE!important;padding:5px 0!important}
+th{font-weight:normal}
+
+.el-dialog__footer{text-align:center!important}
+footer{padding:0.4rem 0 0.1rem;text-align: center}
+
+/*city*/
+.distpicker-address-wrapper select{font-size:0.14rem!important;height:38px!important;cursor: pointer;min-width:90px;padding:0px!important;border-radius:5px!important;}

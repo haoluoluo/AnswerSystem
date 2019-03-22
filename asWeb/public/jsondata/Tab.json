@@ -1,0 +1,26 @@
+[
+    {
+        "code":"index",
+        "level":1,
+        "name":"常用指标",
+        "type":1
+    },
+    {
+        "code":"range",
+        "level":1,
+        "name":"股票范围",
+        "type":1
+    },
+    {
+        "code":"notice",
+        "level":1,
+        "name":"公告事件",
+        "type":2
+    },
+    {
+        "code":"finance",
+        "level":1,
+        "name":"财务科目",
+        "type":1
+    }
+]

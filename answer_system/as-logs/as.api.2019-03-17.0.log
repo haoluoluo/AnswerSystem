@@ -1,0 +1,547 @@
+2019-03-17 11:29:23,548 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 7706 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-17 11:29:23,554 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-17 11:29:23,554 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-17 11:29:35,356 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-17 11:29:39,577 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 20.016 seconds (JVM running for 24.195)
+2019-03-17 11:30:26,317 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user 
+2019-03-17 11:30:26,342 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 11:30:26,362 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 11:30:27,739 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 11:30:27,740 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 11:30:27,745 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 11:30:28,600 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user 
+2019-03-17 11:30:28,601 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 11:30:28,605 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 11:30:55,611 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 11:30:55,614 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 11:30:55,637 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 12:51:10,754 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 9198 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-17 12:51:10,763 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-17 12:51:10,764 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-17 12:51:13,573 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-17 12:51:15,467 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.035 seconds (JVM running for 7.6)
+2019-03-17 12:53:44,010 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 9448 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-17 12:53:44,013 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-17 12:53:44,014 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-17 12:53:47,553 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-17 12:53:49,217 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.124 seconds (JVM running for 7.502)
+2019-03-17 12:54:05,309 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 12:54:05,330 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 12:54:05,346 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 12:54:05,354 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 12:54:05,355 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 12:54:05,357 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 12:54:05,358 DEBUG (QuestionController.java:49)- null
+2019-03-17 12:54:16,453 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 12:54:16,455 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 12:54:16,456 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-17 12:55:00,311 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 12:55:00,312 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 12:55:00,313 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 12:55:00,315 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 12:55:00,317 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 12:55:00,321 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 12:55:00,322 DEBUG (QuestionController.java:49)- null
+2019-03-17 12:55:42,176 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 9633 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-17 12:55:42,184 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-17 12:55:42,185 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-17 12:55:44,893 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-17 12:55:46,460 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 5.485 seconds (JVM running for 7.081)
+2019-03-17 12:56:28,823 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 12:56:28,848 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 12:56:28,868 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 12:56:28,880 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 12:56:28,882 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 12:56:28,885 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 12:56:28,886 DEBUG (QuestionController.java:49)- null
+2019-03-17 12:57:11,569 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 9807 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-17 12:57:11,573 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-17 12:57:11,573 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-17 12:57:14,375 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-17 12:57:16,281 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 5.797 seconds (JVM running for 6.768)
+2019-03-17 12:57:22,724 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 12:57:22,744 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 12:57:22,759 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 12:57:22,775 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 12:57:22,777 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 12:57:22,781 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 18:06:56,994 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:06:56,995 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:06:57,016 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:07:12,229 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:07:12,230 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:07:12,237 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:07:24,577 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:07:24,578 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:07:24,581 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:07:36,156 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user 
+2019-03-17 18:07:36,159 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:07:36,163 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 18:07:36,783 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:07:36,784 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:07:36,787 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:07:47,649 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:07:47,650 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:07:47,656 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:09:01,638 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:09:01,640 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:09:01,644 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:11:07,905 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user 
+2019-03-17 18:11:07,906 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:11:07,909 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 18:11:09,573 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:11:09,574 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:11:09,577 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:11:14,675 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:11:14,675 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:11:14,679 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:11:21,713 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:11:21,714 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:11:21,718 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:12:46,182 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:12:46,183 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:12:46,186 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:13:22,620 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:13:22,621 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:13:22,626 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:13:32,456 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:13:32,459 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:13:32,469 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:14:56,773 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:14:56,775 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:14:56,782 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:14:58,649 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 18:14:58,651 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 18:14:58,737 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 18:14:58,739 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 18:14:58,740 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 18:14:58,743 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 18:17:24,471 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:17:24,472 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:17:24,475 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:17:28,640 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 18:17:28,641 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 18:17:28,643 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 18:17:28,646 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 18:17:28,647 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 18:17:28,649 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 18:18:45,994 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user 
+2019-03-17 18:18:45,995 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:18:45,996 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 18:19:07,454 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user 
+2019-03-17 18:19:07,455 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:19:07,459 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 18:19:41,797 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user 
+2019-03-17 18:19:41,798 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:19:41,801 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 18:20:29,450 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user 
+2019-03-17 18:20:29,451 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:20:29,460 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 18:21:02,929 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user 
+2019-03-17 18:21:02,930 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:21:02,937 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 18:21:56,075 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user 
+2019-03-17 18:21:56,105 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:21:56,108 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 18:22:27,771 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:22:27,771 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:22:27,773 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:22:30,791 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:22:30,794 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:22:30,799 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:23:15,972 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 18:23:15,974 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 18:23:15,976 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 18:23:15,979 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 18:23:15,980 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 18:23:15,988 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 18:26:41,913 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:26:41,913 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:26:41,916 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:29:16,256 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:29:16,257 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:29:16,259 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:29:44,431 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 18:29:44,435 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 18:29:44,438 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 18:29:44,446 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 18:29:44,452 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 18:29:44,460 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 18:32:39,528 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 18:32:39,529 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 18:32:39,531 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 18:32:39,533 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 18:32:39,534 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 18:32:39,539 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 18:34:24,857 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:34:24,858 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:34:24,860 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:34:37,444 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:34:37,445 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:34:37,447 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:34:39,113 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 18:34:39,114 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 18:34:39,116 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 18:34:39,119 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 18:34:39,120 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 18:34:39,123 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 18:35:30,302 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 18:35:30,303 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 18:35:30,307 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 18:35:30,321 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 18:35:30,322 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 18:35:30,326 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 18:50:31,186 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:50:31,187 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:50:31,188 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:50:34,544 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user 
+2019-03-17 18:50:34,545 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:50:34,546 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 18:50:38,607 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user 
+2019-03-17 18:50:38,608 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:50:38,609 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 18:50:43,532 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:50:43,533 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:50:43,534 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:52:02,890 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:52:02,891 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:52:02,897 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:52:04,573 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 18:52:04,575 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 18:52:04,576 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 18:52:04,578 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 18:52:04,579 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 18:52:04,581 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 18:52:23,084 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:52:23,085 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:52:23,087 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:52:29,708 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 18:52:29,709 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 18:52:29,710 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 18:52:29,712 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 18:52:29,713 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 18:52:29,715 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 18:57:57,315 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:57:57,336 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:57:57,342 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:58:01,378 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 18:58:01,379 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 18:58:01,380 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 18:58:02,412 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 18:58:02,412 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 18:58:02,413 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 18:58:02,415 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 18:58:02,416 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 18:58:02,418 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:03:39,396 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:03:39,397 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:03:39,405 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:03:43,301 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:03:43,302 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:03:43,303 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:03:43,305 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:03:43,306 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:03:43,307 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:04:42,857 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:04:42,857 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:04:42,859 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:04:44,172 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:04:44,173 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:04:44,174 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:04:44,176 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:04:44,177 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:04:44,179 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:09:13,597 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:09:13,598 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:09:13,599 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:09:15,550 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:09:15,550 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:09:15,552 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:09:15,554 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:09:15,554 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:09:15,556 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:10:19,707 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:10:19,707 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:10:19,709 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:10:23,069 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user 
+2019-03-17 19:10:23,070 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:10:23,071 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:10:23,707 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:10:23,707 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:10:23,709 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:10:58,147 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:10:58,148 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:10:58,150 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:11:02,129 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:11:02,131 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:11:02,136 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:11:02,139 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:11:02,140 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:11:02,152 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:17:25,976 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:17:25,977 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:17:26,072 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:17:26,079 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:17:26,080 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:17:26,082 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:18:52,831 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:18:52,833 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:18:52,835 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:18:52,838 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:18:52,839 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:18:52,841 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:19:45,424 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:19:45,425 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:19:45,427 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:19:45,432 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:19:45,433 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:19:45,434 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:19:52,527 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:19:52,528 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:19:52,529 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:19:55,198 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:19:55,199 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:19:55,200 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:19:55,202 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:19:55,204 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:19:55,206 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:20:40,374 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:20:40,375 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:20:40,376 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:20:40,378 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:20:40,378 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:20:40,379 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:21:06,052 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:21:06,052 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:21:06,054 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:21:07,534 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:21:07,536 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:21:07,540 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:21:07,543 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:21:07,544 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:21:07,546 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:21:32,998 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:21:32,999 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:21:33,000 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:21:33,001 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:21:33,002 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:21:33,003 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:22:57,865 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:22:57,866 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:22:57,868 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:23:01,748 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:23:01,749 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:23:01,750 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:23:02,962 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:23:02,963 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:23:02,968 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:23:02,970 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:23:02,970 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:23:02,974 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:24:04,899 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:24:04,901 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:24:04,903 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:24:04,905 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:24:04,906 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:24:04,908 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:25:46,855 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:25:46,856 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:25:46,857 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:25:46,859 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:25:46,860 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:25:46,862 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:25:58,935 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:25:58,936 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:25:58,937 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:25:58,939 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:25:58,940 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:25:58,941 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:26:33,336 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:26:33,337 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:26:33,338 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:26:35,991 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:26:35,991 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:26:35,994 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:26:40,007 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:26:40,008 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:26:40,010 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:26:40,012 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:26:40,023 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:26:40,024 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:26:45,630 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:26:45,631 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:26:45,632 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:26:45,633 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:26:45,634 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:26:45,635 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:27:35,544 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:27:35,546 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:27:35,549 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:27:44,214 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:27:44,214 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:27:44,268 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:27:45,276 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:27:45,277 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:27:45,279 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:27:45,286 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:27:45,290 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:27:45,291 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:29:55,858 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:29:55,859 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:29:55,861 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:29:55,863 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:29:55,865 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:29:55,866 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:30:51,828 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:30:51,829 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:30:51,830 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:30:51,832 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:30:51,833 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:30:51,834 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:31:13,605 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:31:13,606 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:31:13,607 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:31:32,984 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:31:32,984 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:31:32,986 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:31:36,580 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:31:36,581 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:31:36,585 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:31:37,853 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:31:37,854 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:31:37,856 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:31:37,858 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:31:37,859 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:31:37,860 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:33:25,381 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:33:25,382 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:33:25,385 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:33:25,387 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:33:25,393 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:33:25,395 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:35:50,720 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:35:50,721 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:35:50,723 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:35:50,724 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:35:50,725 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:35:50,739 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:38:03,790 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:38:03,791 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:38:03,792 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:38:03,794 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:38:03,795 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:38:03,796 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:38:17,997 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:38:17,997 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:38:17,998 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:38:18,000 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:38:18,001 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:38:18,004 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:38:25,092 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:38:25,092 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:38:25,096 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:38:30,916 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:38:30,917 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:38:30,919 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:38:31,809 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:38:31,811 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:38:31,812 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:38:31,815 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:38:31,818 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:38:31,819 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:39:57,328 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:39:57,328 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:39:57,329 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:39:57,331 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:39:57,332 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:39:57,335 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:40:43,900 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:40:43,901 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:40:43,904 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:40:47,871 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:40:47,872 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:40:47,874 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:40:49,030 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:40:49,032 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:40:49,034 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:40:49,037 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:40:49,039 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:40:49,041 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:41:12,993 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:41:12,994 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:41:12,995 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:41:17,665 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:41:17,665 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:41:17,666 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:41:17,668 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:41:17,669 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:41:17,670 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:41:33,292 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:41:33,293 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:41:33,295 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:41:33,296 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:41:33,297 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:41:33,298 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:44:33,170 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:44:33,171 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:44:33,172 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:44:36,038 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 19:44:36,038 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 19:44:36,040 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 19:44:36,854 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:44:36,854 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:44:36,856 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:44:36,857 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:44:36,858 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:44:36,859 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:45:49,412 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:45:49,413 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:45:49,414 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:45:49,417 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:45:49,435 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:45:49,442 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 19:46:45,524 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 19:46:45,525 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 19:46:45,526 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 19:46:45,528 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 19:46:45,528 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 19:46:45,529 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 20:22:33,483 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 20:22:33,505 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 20:22:33,507 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 20:22:33,509 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 20:22:33,509 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 20:22:33,510 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 20:22:49,647 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 20:22:49,648 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 20:22:49,649 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 20:22:49,650 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 20:22:49,651 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 20:22:49,652 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 20:23:40,597 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 20:23:40,598 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 20:23:40,600 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 20:23:40,601 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 20:23:40,602 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 20:23:40,605 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 20:32:01,881 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 20:32:01,882 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 20:32:01,883 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 20:32:05,479 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 20:32:05,480 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 20:32:05,483 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 20:32:06,694 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 20:32:06,695 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 20:32:06,696 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 20:32:06,698 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 20:32:06,699 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 20:32:06,700 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-03-17 20:32:14,055 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,des,time,status FROM examination 
+2019-03-17 20:32:14,055 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-03-17 20:32:14,056 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2019-03-17 20:32:18,970 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,title,answer,reason,examination,score FROM question WHERE ( examination = ? ) 
+2019-03-17 20:32:18,971 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2019-03-17 20:32:18,972 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-17 20:32:18,973 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,question FROM items WHERE ( question = ? ) 
+2019-03-17 20:32:18,973 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-03-17 20:32:18,975 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4

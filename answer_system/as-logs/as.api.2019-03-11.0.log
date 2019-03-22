@@ -1,0 +1,93 @@
+2019-03-11 16:31:21,530 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 5651 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-11 16:31:21,562 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-11 16:31:21,562 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-11 16:31:27,035 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-11 16:31:30,663 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 12.334 seconds (JVM running for 14.086)
+2019-03-11 16:46:22,908 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 6679 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-11 16:46:22,912 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-11 16:46:22,912 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-11 16:46:26,021 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-11 16:46:27,541 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 5.799 seconds (JVM running for 6.883)
+2019-03-11 16:46:36,680 DEBUG (UserController.java:45)- =======================begin===============
+2019-03-11 16:47:09,884 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 6817 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-11 16:47:09,886 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-11 16:47:09,887 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-11 16:47:11,818 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-11 16:47:13,465 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 4.331 seconds (JVM running for 10.676)
+2019-03-11 16:47:24,917 DEBUG (UserController.java:45)- =======================begin===============
+2019-03-11 16:48:02,189 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-11 16:48:02,215 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: xxxxx@qq.com(String)
+2019-03-11 16:48:02,260 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-11 16:48:13,168 DEBUG (UserController.java:45)- =======================begin===============
+2019-03-11 16:48:13,171 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-11 16:48:13,172 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: xxxxx@qq.com(String)
+2019-03-11 16:48:13,177 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-11 16:54:02,906 DEBUG (UserController.java:45)- =======================begin===============
+2019-03-11 16:54:02,912 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-11 16:54:02,914 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: xxxxx@qq.com(String)
+2019-03-11 16:54:02,917 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-11 16:54:45,565 DEBUG (UserController.java:45)- =======================begin===============
+2019-03-11 16:54:45,568 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-11 16:54:45,569 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: xxxxx@qq.com(String)
+2019-03-11 16:54:45,573 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-11 16:58:25,777 DEBUG (UserController.java:45)- =======================begin===============
+2019-03-11 16:58:25,779 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-11 16:58:25,780 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: xxxxx@qq.com(String)
+2019-03-11 16:58:25,782 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-11 17:01:15,807 DEBUG (UserController.java:45)- =======================begin===============
+2019-03-11 17:01:15,810 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-11 17:01:15,811 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: xxxxx@qq.com(String)
+2019-03-11 17:01:15,813 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-11 17:29:33,249 DEBUG (UserController.java:45)- =======================begin===============
+2019-03-11 17:29:33,251 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-11 17:29:33,252 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: xxxxx@qq.com(String)
+2019-03-11 17:29:33,254 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-11 17:34:20,154 DEBUG (UserController.java:45)- =======================begin===============
+2019-03-11 17:34:20,157 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-11 17:34:20,159 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: xxxxx@qq.com(String)
+2019-03-11 17:34:20,163 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-11 17:41:33,438 DEBUG (UserController.java:45)- =======================begin===============
+2019-03-11 17:41:33,440 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-11 17:41:33,441 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: xxxxx@qq.com(String)
+2019-03-11 17:41:33,442 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-11 17:41:39,811 DEBUG (UserController.java:45)- =======================begin===============
+2019-03-11 17:41:39,813 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-11 17:41:39,814 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: xxxxx@qq.com(String)
+2019-03-11 17:41:39,815 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-11 18:07:21,087 DEBUG (UserController.java:45)- =======================begin===============
+2019-03-11 18:07:21,089 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-11 18:07:21,090 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: xxxxx@qq.com(String)
+2019-03-11 18:07:21,092 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-11 18:07:29,800 DEBUG (UserController.java:45)- =======================begin===============
+2019-03-11 18:07:29,803 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-11 18:07:29,804 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: xxxxx@qq.com(String)
+2019-03-11 18:07:29,806 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-11 18:07:49,407 DEBUG (UserController.java:45)- =======================begin===============
+2019-03-11 18:07:49,409 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-11 18:07:49,410 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: xxxxx@qq.com(String)
+2019-03-11 18:07:49,412 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-11 18:08:29,911 DEBUG (UserController.java:45)- =======================begin===============
+2019-03-11 18:08:29,913 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-11 18:08:29,914 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: xxxxx@qq.com(String)
+2019-03-11 18:08:29,916 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-03-11 18:47:02,343 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-11 18:47:02,344 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123qq.com(String)
+2019-03-11 18:47:02,346 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-11 18:47:02,353 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO user ( userno,username,password,email,gender,status,newdate ) VALUES( ?,?,?,?,?,?,? ) 
+2019-03-11 18:47:02,356 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null, null, 123(String), 123qq.com(String), null, 1(Integer), null
+2019-03-11 18:48:21,992 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-11 18:48:21,993 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123qq.com(String)
+2019-03-11 18:48:21,995 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-11 18:48:21,998 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO user ( userno,username,password,email,gender,status,newdate ) VALUES( ?,?,?,?,?,?,? ) 
+2019-03-11 18:48:21,999 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null, null, 123(String), 123qq.com(String), null, 1(Integer), null
+2019-03-11 18:48:39,574 INFO (StartupInfoLogger.java:50)- Starting AnswerSystemApplication on haoluo with PID 10060 (/home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system/target/classes started by haoluo in /home/haoluo/Documents/workspaces/GitHub/AnswerSystem/answer_system)
+2019-03-11 18:48:39,580 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-11 18:48:39,581 INFO (SpringApplication.java:679)- The following profiles are active: test
+2019-03-11 18:48:43,332 INFO (DataSource1Config.java:49)- datasource1 开始初始化。
+2019-03-11 18:48:45,138 INFO (StartupInfoLogger.java:59)- Started AnswerSystemApplication in 6.837 seconds (JVM running for 8.134)
+2019-03-11 18:49:16,208 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT userno,username,password,email,gender,status,newdate FROM user WHERE ( email = ? ) 
+2019-03-11 18:49:16,234 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123qq.com(String)
+2019-03-11 18:49:16,253 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-03-11 18:49:16,259 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO user ( userno,username,password,email,gender,status,newdate ) VALUES( ?,?,?,?,?,?,? ) 
+2019-03-11 18:49:16,262 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null, null, 123(String), 123qq.com(String), null, 1(Integer), 123(String)
+2019-03-11 18:49:16,312 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
